@@ -1,0 +1,5002 @@
+[
+  {
+    "id": 1,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba towel, is that ok kusema hivyo?"
+  },
+  {
+    "id": 2,
+    "category": "Farewell",
+    "mzungu_message": "Kwaheri teacher, see you next lesson, asante kwa msaada wako!"
+  },
+  {
+    "id": 3,
+    "category": "Shopping",
+    "mzungu_message": "How much ni gari? Naomba unipunguzie."
+  },
+  {
+    "id": 4,
+    "category": "Shopping",
+    "mzungu_message": "Punguza bei tafadhali, this is my kwanza time hapa."
+  },
+  {
+    "id": 5,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want soup kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 6,
+    "category": "Culture",
+    "mzungu_message": "I heard 'Karibu' inatumika sana, when exactly tunaitumia?"
+  },
+  {
+    "id": 7,
+    "category": "Farewell",
+    "mzungu_message": "Tutaonana kesho, is that a correct njia ya kuaga?"
+  },
+  {
+    "id": 8,
+    "category": "Greetings mix",
+    "mzungu_message": "Shikamoo teacher, how unaendeleaje?"
+  },
+  {
+    "id": 9,
+    "category": "Transport",
+    "mzungu_message": "Basi hili linaenda wapi? I'm confused na maneno mengi."
+  },
+  {
+    "id": 10,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-walk kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 11,
+    "category": "Health",
+    "mzungu_message": "Naomba dawa, is duka la dawa sawa na pharmacy?"
+  },
+  {
+    "id": 12,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda ufukweni, unaweza kunielekeza?"
+  },
+  {
+    "id": 13,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want banana kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 14,
+    "category": "Politeness",
+    "mzungu_message": "Pole sana kwa kuchelewa, traffic ilikuwa mbaya sana."
+  },
+  {
+    "id": 15,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the mosque? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 16,
+    "category": "Small talk",
+    "mzungu_message": "Family yako iko wapi? Is that correct kuuliza hivyo?"
+  },
+  {
+    "id": 17,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am nzuri leo, na wewe?"
+  },
+  {
+    "id": 18,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Ninajifunza Kiswahili but sijui grammar vizuri, help please."
+  },
+  {
+    "id": 19,
+    "category": "Greetings mix",
+    "mzungu_message": "Good morning mwalimu! Habari zenu?"
+  },
+  {
+    "id": 20,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially kuku!"
+  },
+  {
+    "id": 21,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda uwanjani, unaweza kunielekeza?"
+  },
+  {
+    "id": 22,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu vivumishi?"
+  },
+  {
+    "id": 23,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda hotelini, unaweza kunielekeza?"
+  },
+  {
+    "id": 24,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba sugar, is that ok kusema hivyo?"
+  },
+  {
+    "id": 25,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda ofisini, unaweza kunielekeza?"
+  },
+  {
+    "id": 26,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka mbuzi, tafadhali, do you have?"
+  },
+  {
+    "id": 27,
+    "category": "Locations",
+    "mzungu_message": "Where is gari? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 28,
+    "category": "Numbers/Time",
+    "mzungu_message": "Saa ngapi sasa? I always confuse namba za saa."
+  },
+  {
+    "id": 29,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni fine sana leo."
+  },
+  {
+    "id": 30,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'fear' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 31,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing fine, asante sana!"
+  },
+  {
+    "id": 32,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Unaweza kurudia tena? Sikuelewa neno la mwisho."
+  },
+  {
+    "id": 33,
+    "category": "Shopping",
+    "mzungu_message": "How much ni nanasi? Naomba unipunguzie."
+  },
+  {
+    "id": 34,
+    "category": "Numbers/Time",
+    "mzungu_message": "Leo ni tarehe gani? Sijui jinsi ya kuuliza date sahihi."
+  },
+  {
+    "id": 35,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni excited sana leo."
+  },
+  {
+    "id": 36,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu familia?"
+  },
+  {
+    "id": 37,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka benki? Please explain kwa taratibu."
+  },
+  {
+    "id": 38,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda stesheni, unaweza kunielekeza?"
+  },
+  {
+    "id": 39,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to write' kwa usahihi?"
+  },
+  {
+    "id": 40,
+    "category": "Culture",
+    "mzungu_message": "What does 'Hakuna matata' actually maanisha kwa undani?"
+  },
+  {
+    "id": 41,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya blanketi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 42,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat nyama, sijui vitenzi vizuri."
+  },
+  {
+    "id": 43,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba table, is that ok kusema hivyo?"
+  },
+  {
+    "id": 44,
+    "category": "Small talk",
+    "mzungu_message": "Unafanya kazi gani? I am curious kujua zaidi kuhusu wewe."
+  },
+  {
+    "id": 45,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink kiazi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 46,
+    "category": "Numbers/Time",
+    "mzungu_message": "How do I count from one mpaka kumi kwa Kiswahili?"
+  },
+  {
+    "id": 47,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua goat, do you accept mobile money?"
+  },
+  {
+    "id": 48,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially embe!"
+  },
+  {
+    "id": 49,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially nanasi!"
+  },
+  {
+    "id": 50,
+    "category": "Health",
+    "mzungu_message": "My stomach linauma, sijui neno sahihi la 'stomach'."
+  },
+  {
+    "id": 51,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni happy sana, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 52,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want goat kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 53,
+    "category": "Politeness",
+    "mzungu_message": "Asante sana teacher, that was very helpful kwangu."
+  },
+  {
+    "id": 54,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya mkate? It's too expensive kwa mimi."
+  },
+  {
+    "id": 55,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing poa, asante sana!"
+  },
+  {
+    "id": 56,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Sielewi vizuri, can you explain kwa Kiingereza kidogo?"
+  },
+  {
+    "id": 57,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya samaki? It's too expensive kwa mimi."
+  },
+  {
+    "id": 58,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka mafuta, tafadhali, do you have?"
+  },
+  {
+    "id": 59,
+    "category": "Health",
+    "mzungu_message": "Ninaumwa kidogo, can you tell me jinsi ya kusema hospitalini?"
+  },
+  {
+    "id": 60,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua soup, do you accept mobile money?"
+  },
+  {
+    "id": 61,
+    "category": "Culture",
+    "mzungu_message": "Ni heshima kufanya nini nikikutana na mzee? Please explain."
+  },
+  {
+    "id": 62,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu siku za wiki, is now a good time?"
+  },
+  {
+    "id": 63,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni poa, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 64,
+    "category": "Politeness",
+    "mzungu_message": "Samahani, I made a mistake, unaweza kunisahihisha?"
+  },
+  {
+    "id": 65,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda kiti sana, I really like it too much!"
+  },
+  {
+    "id": 66,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy saa, bei gani?"
+  },
+  {
+    "id": 67,
+    "category": "Locations",
+    "mzungu_message": "Where is kanisa? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 68,
+    "category": "Locations",
+    "mzungu_message": "Is the hotel karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 69,
+    "category": "Locations",
+    "mzungu_message": "Mkahawani iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 70,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu maelekezo ya barabara?"
+  },
+  {
+    "id": 71,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu hali ya hewa?"
+  },
+  {
+    "id": 72,
+    "category": "Locations",
+    "mzungu_message": "How do I get to home? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 73,
+    "category": "Locations",
+    "mzungu_message": "Is the village karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 74,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get nguo? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 75,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the station? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 76,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to cook' kwa usahihi?"
+  },
+  {
+    "id": 77,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka mjini? Please explain kwa taratibu."
+  },
+  {
+    "id": 78,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-read/study jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 79,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni good, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 80,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu salamu?"
+  },
+  {
+    "id": 81,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-wait kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 82,
+    "category": "Transport",
+    "mzungu_message": "Simama hapa, is that the right way ku-stop taxi?"
+  },
+  {
+    "id": 83,
+    "category": "Locations",
+    "mzungu_message": "Where is ufunguo? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 84,
+    "category": "Shopping",
+    "mzungu_message": "How much ni blanketi? Naomba unipunguzie."
+  },
+  {
+    "id": 85,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-close jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 86,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for simu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 87,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash nyanya, sijui vitenzi vizuri."
+  },
+  {
+    "id": 88,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu sarufi ya Kiswahili, is now a good time?"
+  },
+  {
+    "id": 89,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy meza, bei gani?"
+  },
+  {
+    "id": 90,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya simu? It's too expensive kwa mimi."
+  },
+  {
+    "id": 91,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-want kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 92,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to buy' kwa usahihi?"
+  },
+  {
+    "id": 93,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka shati, tafadhali, do you have?"
+  },
+  {
+    "id": 94,
+    "category": "Locations",
+    "mzungu_message": "Is the hospital karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 95,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni fine, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 96,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka mkate, tafadhali, do you have?"
+  },
+  {
+    "id": 97,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda meza sana, I really like it too much!"
+  },
+  {
+    "id": 98,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy viatu, bei gani?"
+  },
+  {
+    "id": 99,
+    "category": "Locations",
+    "mzungu_message": "Is the bus station karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 100,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya mbuzi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 101,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to open' kwa usahihi?"
+  },
+  {
+    "id": 102,
+    "category": "Shopping",
+    "mzungu_message": "How much ni kiazi? Naomba unipunguzie."
+  },
+  {
+    "id": 103,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to cry' kwa usahihi?"
+  },
+  {
+    "id": 104,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda suruali sana, I really like it too much!"
+  },
+  {
+    "id": 105,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to close' kwa usahihi?"
+  },
+  {
+    "id": 106,
+    "category": "Locations",
+    "mzungu_message": "Where is mwalimu? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 107,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya supu? It's too expensive kwa mimi."
+  },
+  {
+    "id": 108,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka embe, tafadhali, do you have?"
+  },
+  {
+    "id": 109,
+    "category": "Locations",
+    "mzungu_message": "Is home karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 110,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu namba, is now a good time?"
+  },
+  {
+    "id": 111,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want trousers kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 112,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda msikitini, unaweza kunielekeza?"
+  },
+  {
+    "id": 113,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy wali, bei gani?"
+  },
+  {
+    "id": 114,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-think kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 115,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'soldier' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 116,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu sarufi ya Kiswahili?"
+  },
+  {
+    "id": 117,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy kofia, bei gani?"
+  },
+  {
+    "id": 118,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 119,
+    "category": "Locations",
+    "mzungu_message": "Benki iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 120,
+    "category": "Shopping",
+    "mzungu_message": "Naomba risiti, is that neno sahihi?"
+  },
+  {
+    "id": 121,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu rangi, is now a good time?"
+  },
+  {
+    "id": 122,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu utamaduni wa Kitanzania?"
+  },
+  {
+    "id": 123,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-travel kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 124,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka mkahawani? Please explain kwa taratibu."
+  },
+  {
+    "id": 125,
+    "category": "Locations",
+    "mzungu_message": "Shuleni iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 126,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya sabuni? It's too expensive kwa mimi."
+  },
+  {
+    "id": 127,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba bread, is that ok kusema hivyo?"
+  },
+  {
+    "id": 128,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'trousers' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 129,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-understand kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 130,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-run kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 131,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka shuleni? Please explain kwa taratibu."
+  },
+  {
+    "id": 132,
+    "category": "Shopping",
+    "mzungu_message": "How much ni nyanya? Naomba unipunguzie."
+  },
+  {
+    "id": 133,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially wali!"
+  },
+  {
+    "id": 134,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya meza? It's too expensive kwa mimi."
+  },
+  {
+    "id": 135,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda sokoni, unaweza kunielekeza?"
+  },
+  {
+    "id": 136,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-love/like jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 137,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want chicken kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 138,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka dukani? Please explain kwa taratibu."
+  },
+  {
+    "id": 139,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda nyanya sana, I really like it too much!"
+  },
+  {
+    "id": 140,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda hospitalini, unaweza kunielekeza?"
+  },
+  {
+    "id": 141,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua car, do you accept mobile money?"
+  },
+  {
+    "id": 142,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'electricity' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 143,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want medicine kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 144,
+    "category": "Locations",
+    "mzungu_message": "Mjini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 145,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am poa leo, na wewe?"
+  },
+  {
+    "id": 146,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-play kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 147,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-want jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 148,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka saa, tafadhali, do you have?"
+  },
+  {
+    "id": 149,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba vegetables, is that ok kusema hivyo?"
+  },
+  {
+    "id": 150,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want cooking oil kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 151,
+    "category": "Locations",
+    "mzungu_message": "Is the bank karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 152,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for shati, sijui vitenzi vizuri."
+  },
+  {
+    "id": 153,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya sukari? It's too expensive kwa mimi."
+  },
+  {
+    "id": 154,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-sell jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 155,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am excited leo, na wewe?"
+  },
+  {
+    "id": 156,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya gari? It's too expensive kwa mimi."
+  },
+  {
+    "id": 157,
+    "category": "Shopping",
+    "mzungu_message": "How much ni kofia? Naomba unipunguzie."
+  },
+  {
+    "id": 158,
+    "category": "Locations",
+    "mzungu_message": "Is the station karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 159,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am happy sana leo, na wewe?"
+  },
+  {
+    "id": 160,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing okay kabisa, asante sana!"
+  },
+  {
+    "id": 161,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get yai? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 162,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu vivumishi, is now a good time?"
+  },
+  {
+    "id": 163,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka kuku, tafadhali, do you have?"
+  },
+  {
+    "id": 164,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni poa sana leo."
+  },
+  {
+    "id": 165,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-wait jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 166,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get kuku? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 167,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am fine leo, na wewe?"
+  },
+  {
+    "id": 168,
+    "category": "Locations",
+    "mzungu_message": "Kijijini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 169,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'fish' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 170,
+    "category": "Locations",
+    "mzungu_message": "Where is begi? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 171,
+    "category": "Locations",
+    "mzungu_message": "Where is stesheni? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 172,
+    "category": "Shopping",
+    "mzungu_message": "How much ni yai? Naomba unipunguzie."
+  },
+  {
+    "id": 173,
+    "category": "Locations",
+    "mzungu_message": "Hospitalini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 174,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua chicken, do you accept mobile money?"
+  },
+  {
+    "id": 175,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing excited, asante sana!"
+  },
+  {
+    "id": 176,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want tea kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 177,
+    "category": "Locations",
+    "mzungu_message": "Where is msikiti? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 178,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am okay kabisa leo, na wewe?"
+  },
+  {
+    "id": 179,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-clean kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 180,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni okay kabisa sana leo."
+  },
+  {
+    "id": 181,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to travel' kwa usahihi?"
+  },
+  {
+    "id": 182,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-cook jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 183,
+    "category": "Shopping",
+    "mzungu_message": "How much ni viatu? Naomba unipunguzie."
+  },
+  {
+    "id": 184,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink ugali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 185,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni happy sana sana leo."
+  },
+  {
+    "id": 186,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially ugali!"
+  },
+  {
+    "id": 187,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'egg' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 188,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want phone kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 189,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya chumvi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 190,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda stendi, unaweza kunielekeza?"
+  },
+  {
+    "id": 191,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda kofia sana, I really like it too much!"
+  },
+  {
+    "id": 192,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka supu, tafadhali, do you have?"
+  },
+  {
+    "id": 193,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy chai, bei gani?"
+  },
+  {
+    "id": 194,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-close kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 195,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to know' kwa usahihi?"
+  },
+  {
+    "id": 196,
+    "category": "Shopping",
+    "mzungu_message": "How much ni ndizi? Naomba unipunguzie."
+  },
+  {
+    "id": 197,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am great leo, na wewe?"
+  },
+  {
+    "id": 198,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni a bit tired sana leo."
+  },
+  {
+    "id": 199,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua meat, do you accept mobile money?"
+  },
+  {
+    "id": 200,
+    "category": "Locations",
+    "mzungu_message": "Is the market karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 201,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu mazungumzo ya sokoni?"
+  },
+  {
+    "id": 202,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-wash jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 203,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka chakula, tafadhali, do you have?"
+  },
+  {
+    "id": 204,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want towel kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 205,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya mafuta? It's too expensive kwa mimi."
+  },
+  {
+    "id": 206,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua vegetables, do you accept mobile money?"
+  },
+  {
+    "id": 207,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially mkate!"
+  },
+  {
+    "id": 208,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing happy sana, asante sana!"
+  },
+  {
+    "id": 209,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-sleep kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 210,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua watch, do you accept mobile money?"
+  },
+  {
+    "id": 211,
+    "category": "Locations",
+    "mzungu_message": "Stesheni iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 212,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially nyanya!"
+  },
+  {
+    "id": 213,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu miezi ya mwaka, is now a good time?"
+  },
+  {
+    "id": 214,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want soap kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 215,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda bandarini, unaweza kunielekeza?"
+  },
+  {
+    "id": 216,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni nzuri, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 217,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy kofia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 218,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka nguo, tafadhali, do you have?"
+  },
+  {
+    "id": 219,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'cooking oil' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 220,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda mkahawani, unaweza kunielekeza?"
+  },
+  {
+    "id": 221,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the field/airport? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 222,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua hat, do you accept mobile money?"
+  },
+  {
+    "id": 223,
+    "category": "Locations",
+    "mzungu_message": "Where is benki? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 224,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing nzuri, asante sana!"
+  },
+  {
+    "id": 225,
+    "category": "Shopping",
+    "mzungu_message": "How much ni mafuta ya kupikia? Naomba unipunguzie."
+  },
+  {
+    "id": 226,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to work' kwa usahihi?"
+  },
+  {
+    "id": 227,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-remember kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 228,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy blanketi, bei gani?"
+  },
+  {
+    "id": 229,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-see kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 230,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda basi tiketi sana, I really like it too much!"
+  },
+  {
+    "id": 231,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-eat jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 232,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'church' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 233,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy ndizi, bei gani?"
+  },
+  {
+    "id": 234,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the port? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 235,
+    "category": "Shopping",
+    "mzungu_message": "How much ni mboga? Naomba unipunguzie."
+  },
+  {
+    "id": 236,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba rice, is that ok kusema hivyo?"
+  },
+  {
+    "id": 237,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka nyumbani? Please explain kwa taratibu."
+  },
+  {
+    "id": 238,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka kanisani? Please explain kwa taratibu."
+  },
+  {
+    "id": 239,
+    "category": "Locations",
+    "mzungu_message": "Is town karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 240,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open chakula, sijui vitenzi vizuri."
+  },
+  {
+    "id": 241,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-buy kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 242,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want sugar kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 243,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba fish, is that ok kusema hivyo?"
+  },
+  {
+    "id": 244,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda nyumbani, unaweza kunielekeza?"
+  },
+  {
+    "id": 245,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want car kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 246,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni good sana leo."
+  },
+  {
+    "id": 247,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-eat kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 248,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to understand' kwa usahihi?"
+  },
+  {
+    "id": 249,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda nguo sana, I really like it too much!"
+  },
+  {
+    "id": 250,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to sing' kwa usahihi?"
+  },
+  {
+    "id": 251,
+    "category": "Locations",
+    "mzungu_message": "Is the office karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 252,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy basi tiketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 253,
+    "category": "Locations",
+    "mzungu_message": "Where is choo? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 254,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba trousers, is that ok kusema hivyo?"
+  },
+  {
+    "id": 255,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu salamu, is now a good time?"
+  },
+  {
+    "id": 256,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni so so sana leo."
+  },
+  {
+    "id": 257,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-clean jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 258,
+    "category": "Shopping",
+    "mzungu_message": "How much ni nguo? Naomba unipunguzie."
+  },
+  {
+    "id": 259,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to help' kwa usahihi?"
+  },
+  {
+    "id": 260,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially chai!"
+  },
+  {
+    "id": 261,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba bus ticket, is that ok kusema hivyo?"
+  },
+  {
+    "id": 262,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get wali? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 263,
+    "category": "Shopping",
+    "mzungu_message": "How much ni sukari? Naomba unipunguzie."
+  },
+  {
+    "id": 264,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get blanketi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 265,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu matamshi sahihi, is now a good time?"
+  },
+  {
+    "id": 266,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni nzuri sana leo."
+  },
+  {
+    "id": 267,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-walk jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 268,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua pineapple, do you accept mobile money?"
+  },
+  {
+    "id": 269,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka sabuni, tafadhali, do you have?"
+  },
+  {
+    "id": 270,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am a bit tired leo, na wewe?"
+  },
+  {
+    "id": 271,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu jinsi ya kuomba msaada, is now a good time?"
+  },
+  {
+    "id": 272,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu hali ya hewa, is now a good time?"
+  },
+  {
+    "id": 273,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'towel' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 274,
+    "category": "Locations",
+    "mzungu_message": "Where is soko? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 275,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba bag, is that ok kusema hivyo?"
+  },
+  {
+    "id": 276,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-sell kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 277,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba cooking oil, is that ok kusema hivyo?"
+  },
+  {
+    "id": 278,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy yai, bei gani?"
+  },
+  {
+    "id": 279,
+    "category": "Locations",
+    "mzungu_message": "Where is duka? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 280,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat maji, sijui vitenzi vizuri."
+  },
+  {
+    "id": 281,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for sabuni, sijui vitenzi vizuri."
+  },
+  {
+    "id": 282,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'head' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 283,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get kiti? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 284,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya shati? It's too expensive kwa mimi."
+  },
+  {
+    "id": 285,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get mafuta? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 286,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open sabuni, sijui vitenzi vizuri."
+  },
+  {
+    "id": 287,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu maelekezo ya barabara, is now a good time?"
+  },
+  {
+    "id": 288,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want mango kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 289,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya mboga? It's too expensive kwa mimi."
+  },
+  {
+    "id": 290,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda kahawa sana, I really like it too much!"
+  },
+  {
+    "id": 291,
+    "category": "Greetings mix",
+    "mzungu_message": "Habari za asubuhi, teacher! Ni great sana leo."
+  },
+  {
+    "id": 292,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni excited, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 293,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'road' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 294,
+    "category": "Locations",
+    "mzungu_message": "Is the garden/park karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 295,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the village? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 296,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash viatu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 297,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to run' kwa usahihi?"
+  },
+  {
+    "id": 298,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get suruali? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 299,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya basi tiketi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 300,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba tomato, is that ok kusema hivyo?"
+  },
+  {
+    "id": 301,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu matamshi sahihi?"
+  },
+  {
+    "id": 302,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want chair kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 303,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get meza? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 304,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka begi, tafadhali, do you have?"
+  },
+  {
+    "id": 305,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda supu sana, I really like it too much!"
+  },
+  {
+    "id": 306,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the bus station? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 307,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-know jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 308,
+    "category": "Locations",
+    "mzungu_message": "Sokoni iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 309,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda begi sana, I really like it too much!"
+  },
+  {
+    "id": 310,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing a bit tired, asante sana!"
+  },
+  {
+    "id": 311,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-forget jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 312,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get chumvi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 313,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 314,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to wash' kwa usahihi?"
+  },
+  {
+    "id": 315,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get ndizi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 316,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the bank? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 317,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua book, do you accept mobile money?"
+  },
+  {
+    "id": 318,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-pay jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 319,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya embe? It's too expensive kwa mimi."
+  },
+  {
+    "id": 320,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want table kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 321,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 322,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda yai sana, I really like it too much!"
+  },
+  {
+    "id": 323,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka kijijini? Please explain kwa taratibu."
+  },
+  {
+    "id": 324,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda kitabu sana, I really like it too much!"
+  },
+  {
+    "id": 325,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get sabuni? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 326,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open saa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 327,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka uwanjani? Please explain kwa taratibu."
+  },
+  {
+    "id": 328,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-cry jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 329,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'house' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 330,
+    "category": "Shopping",
+    "mzungu_message": "How much ni simu? Naomba unipunguzie."
+  },
+  {
+    "id": 331,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka kitabu, tafadhali, do you have?"
+  },
+  {
+    "id": 332,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially samaki!"
+  },
+  {
+    "id": 333,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-work kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 334,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua banana, do you accept mobile money?"
+  },
+  {
+    "id": 335,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua rice, do you accept mobile money?"
+  },
+  {
+    "id": 336,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want book kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 337,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want food kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 338,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open chumvi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 339,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba food, is that ok kusema hivyo?"
+  },
+  {
+    "id": 340,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy sabuni, bei gani?"
+  },
+  {
+    "id": 341,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get samaki? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 342,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka chai, tafadhali, do you have?"
+  },
+  {
+    "id": 343,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya nanasi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 344,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy nyama, bei gani?"
+  },
+  {
+    "id": 345,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell meza, sijui vitenzi vizuri."
+  },
+  {
+    "id": 346,
+    "category": "Locations",
+    "mzungu_message": "Where is kitabu? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 347,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu namba?"
+  },
+  {
+    "id": 348,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu utamaduni wa Kitanzania, is now a good time?"
+  },
+  {
+    "id": 349,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to see' kwa usahihi?"
+  },
+  {
+    "id": 350,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close saa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 351,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 352,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-wash kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 353,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu vyakula vya Kitanzania, is now a good time?"
+  },
+  {
+    "id": 354,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka msikitini? Please explain kwa taratibu."
+  },
+  {
+    "id": 355,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya kahawa? It's too expensive kwa mimi."
+  },
+  {
+    "id": 356,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-think jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 357,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda chumvi sana, I really like it too much!"
+  },
+  {
+    "id": 358,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing so so, asante sana!"
+  },
+  {
+    "id": 359,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-arrive kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 360,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu rangi?"
+  },
+  {
+    "id": 361,
+    "category": "Locations",
+    "mzungu_message": "Where is simu? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 362,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka bustanini? Please explain kwa taratibu."
+  },
+  {
+    "id": 363,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba water, is that ok kusema hivyo?"
+  },
+  {
+    "id": 364,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba book, is that ok kusema hivyo?"
+  },
+  {
+    "id": 365,
+    "category": "Locations",
+    "mzungu_message": "Where is ofisi? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 366,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am so so leo, na wewe?"
+  },
+  {
+    "id": 367,
+    "category": "Locations",
+    "mzungu_message": "Chuoni iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 368,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close mafuta ya kupikia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 369,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua medicine, do you accept mobile money?"
+  },
+  {
+    "id": 370,
+    "category": "Shopping",
+    "mzungu_message": "How much ni sabuni? Naomba unipunguzie."
+  },
+  {
+    "id": 371,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka chuoni? Please explain kwa taratibu."
+  },
+  {
+    "id": 372,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya yai? It's too expensive kwa mimi."
+  },
+  {
+    "id": 373,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to drink' kwa usahihi?"
+  },
+  {
+    "id": 374,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 375,
+    "category": "Locations",
+    "mzungu_message": "Ofisini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 376,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda shati sana, I really like it too much!"
+  },
+  {
+    "id": 377,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing good, asante sana!"
+  },
+  {
+    "id": 378,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the hotel? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 379,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy basi tiketi, bei gani?"
+  },
+  {
+    "id": 380,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka yai, tafadhali, do you have?"
+  },
+  {
+    "id": 381,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda sukari sana, I really like it too much!"
+  },
+  {
+    "id": 382,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially ndizi!"
+  },
+  {
+    "id": 383,
+    "category": "Shopping",
+    "mzungu_message": "How much ni kitabu? Naomba unipunguzie."
+  },
+  {
+    "id": 384,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba soap, is that ok kusema hivyo?"
+  },
+  {
+    "id": 385,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy kitabu, bei gani?"
+  },
+  {
+    "id": 386,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to sleep' kwa usahihi?"
+  },
+  {
+    "id": 387,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya begi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 388,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to love/like' kwa usahihi?"
+  },
+  {
+    "id": 389,
+    "category": "Locations",
+    "mzungu_message": "Stendi iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 390,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba tea, is that ok kusema hivyo?"
+  },
+  {
+    "id": 391,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially kahawa!"
+  },
+  {
+    "id": 392,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda sabuni sana, I really like it too much!"
+  },
+  {
+    "id": 393,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat ndizi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 394,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'father' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 395,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda dukani, unaweza kunielekeza?"
+  },
+  {
+    "id": 396,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get kofia? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 397,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba goat, is that ok kusema hivyo?"
+  },
+  {
+    "id": 398,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'elephant' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 399,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka taulo, tafadhali, do you have?"
+  },
+  {
+    "id": 400,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya dawa? It's too expensive kwa mimi."
+  },
+  {
+    "id": 401,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni okay kabisa, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 402,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially supu!"
+  },
+  {
+    "id": 403,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu vitenzi, is now a good time?"
+  },
+  {
+    "id": 404,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda blanketi sana, I really like it too much!"
+  },
+  {
+    "id": 405,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get shati? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 406,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-arrive jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 407,
+    "category": "Shopping",
+    "mzungu_message": "How much ni mkate? Naomba unipunguzie."
+  },
+  {
+    "id": 408,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu vitenzi?"
+  },
+  {
+    "id": 409,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya mafuta ya kupikia? It's too expensive kwa mimi."
+  },
+  {
+    "id": 410,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua cooking oil, do you accept mobile money?"
+  },
+  {
+    "id": 411,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba car, is that ok kusema hivyo?"
+  },
+  {
+    "id": 412,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka nyama, tafadhali, do you have?"
+  },
+  {
+    "id": 413,
+    "category": "Locations",
+    "mzungu_message": "How do I get to church? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 414,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell kuku, sijui vitenzi vizuri."
+  },
+  {
+    "id": 415,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to arrive' kwa usahihi?"
+  },
+  {
+    "id": 416,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba meat, is that ok kusema hivyo?"
+  },
+  {
+    "id": 417,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the hospital? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 418,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya suruali? It's too expensive kwa mimi."
+  },
+  {
+    "id": 419,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially maji!"
+  },
+  {
+    "id": 420,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially mboga!"
+  },
+  {
+    "id": 421,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'pillow' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 422,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the market? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 423,
+    "category": "Locations",
+    "mzungu_message": "Is the shop karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 424,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya wali? It's too expensive kwa mimi."
+  },
+  {
+    "id": 425,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka bandarini? Please explain kwa taratibu."
+  },
+  {
+    "id": 426,
+    "category": "Locations",
+    "mzungu_message": "Is school karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 427,
+    "category": "Locations",
+    "mzungu_message": "Is college karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 428,
+    "category": "Shopping",
+    "mzungu_message": "How much ni chai? Naomba unipunguzie."
+  },
+  {
+    "id": 429,
+    "category": "Locations",
+    "mzungu_message": "Is the restaurant karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 430,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open mbuzi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 431,
+    "category": "Locations",
+    "mzungu_message": "How do I get to town? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 432,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda kuku sana, I really like it too much!"
+  },
+  {
+    "id": 433,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'hair' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 434,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka maji, tafadhali, do you have?"
+  },
+  {
+    "id": 435,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu miezi ya mwaka?"
+  },
+  {
+    "id": 436,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda shuleni, unaweza kunielekeza?"
+  },
+  {
+    "id": 437,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba blanket, is that ok kusema hivyo?"
+  },
+  {
+    "id": 438,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook chai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 439,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu mazungumzo ya sokoni, is now a good time?"
+  },
+  {
+    "id": 440,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy kiti, sijui vitenzi vizuri."
+  },
+  {
+    "id": 441,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 442,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba banana, is that ok kusema hivyo?"
+  },
+  {
+    "id": 443,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka kahawa, tafadhali, do you have?"
+  },
+  {
+    "id": 444,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for taulo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 445,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya chakula? It's too expensive kwa mimi."
+  },
+  {
+    "id": 446,
+    "category": "Shopping",
+    "mzungu_message": "How much ni mbuzi? Naomba unipunguzie."
+  },
+  {
+    "id": 447,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy gari, bei gani?"
+  },
+  {
+    "id": 448,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want rice kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 449,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open chai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 450,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'water' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 451,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka sokoni? Please explain kwa taratibu."
+  },
+  {
+    "id": 452,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'driver' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 453,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get viatu? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 454,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba chicken, is that ok kusema hivyo?"
+  },
+  {
+    "id": 455,
+    "category": "Locations",
+    "mzungu_message": "Is the port karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 456,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to laugh' kwa usahihi?"
+  },
+  {
+    "id": 457,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka gari, tafadhali, do you have?"
+  },
+  {
+    "id": 458,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu jinsi ya kuomba msaada?"
+  },
+  {
+    "id": 459,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want clothes kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 460,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy maji, bei gani?"
+  },
+  {
+    "id": 461,
+    "category": "Locations",
+    "mzungu_message": "Ufukweni iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 462,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 463,
+    "category": "Locations",
+    "mzungu_message": "Is the beach karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 464,
+    "category": "Locations",
+    "mzungu_message": "How do I get to college? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 465,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the office? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 466,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya nyanya? It's too expensive kwa mimi."
+  },
+  {
+    "id": 467,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get supu? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 468,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka ufukweni? Please explain kwa taratibu."
+  },
+  {
+    "id": 469,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka samaki, tafadhali, do you have?"
+  },
+  {
+    "id": 470,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-help jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 471,
+    "category": "Locations",
+    "mzungu_message": "Where is daktari? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 472,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'phone' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 473,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka hospitalini? Please explain kwa taratibu."
+  },
+  {
+    "id": 474,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook kuku, sijui vitenzi vizuri."
+  },
+  {
+    "id": 475,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Nina swali kuhusu familia, is now a good time?"
+  },
+  {
+    "id": 476,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya nguo? It's too expensive kwa mimi."
+  },
+  {
+    "id": 477,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda mjini, unaweza kunielekeza?"
+  },
+  {
+    "id": 478,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'window' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 479,
+    "category": "Shopping",
+    "mzungu_message": "How much ni dawa? Naomba unipunguzie."
+  },
+  {
+    "id": 480,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu siku za wiki?"
+  },
+  {
+    "id": 481,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want fish kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 482,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba medicine, is that ok kusema hivyo?"
+  },
+  {
+    "id": 483,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya maji? It's too expensive kwa mimi."
+  },
+  {
+    "id": 484,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash mafuta, sijui vitenzi vizuri."
+  },
+  {
+    "id": 485,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-run jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 486,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda mboga sana, I really like it too much!"
+  },
+  {
+    "id": 487,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'bank' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 488,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni a bit tired, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 489,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka stesheni? Please explain kwa taratibu."
+  },
+  {
+    "id": 490,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy dawa, bei gani?"
+  },
+  {
+    "id": 491,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially nyama!"
+  },
+  {
+    "id": 492,
+    "category": "Locations",
+    "mzungu_message": "Where is shule? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 493,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want pineapple kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 494,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 495,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda bustanini, unaweza kunielekeza?"
+  },
+  {
+    "id": 496,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-drink jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 497,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya kiti? It's too expensive kwa mimi."
+  },
+  {
+    "id": 498,
+    "category": "Locations",
+    "mzungu_message": "Hotelini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 499,
+    "category": "Locations",
+    "mzungu_message": "Is the mosque karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 500,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to eat' kwa usahihi?"
+  },
+  {
+    "id": 501,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua soap, do you accept mobile money?"
+  },
+  {
+    "id": 502,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy kiazi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 503,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want vegetables kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 504,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba salt, is that ok kusema hivyo?"
+  },
+  {
+    "id": 505,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy kuku, sijui vitenzi vizuri."
+  },
+  {
+    "id": 506,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda nanasi sana, I really like it too much!"
+  },
+  {
+    "id": 507,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka mafuta ya kupikia, tafadhali, do you have?"
+  },
+  {
+    "id": 508,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua food, do you accept mobile money?"
+  },
+  {
+    "id": 509,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want watch kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 510,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the beach? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 511,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to play' kwa usahihi?"
+  },
+  {
+    "id": 512,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-speak kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 513,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka nanasi, tafadhali, do you have?"
+  },
+  {
+    "id": 514,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially yai!"
+  },
+  {
+    "id": 515,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash sukari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 516,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to remember' kwa usahihi?"
+  },
+  {
+    "id": 517,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'dog' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 518,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda chuoni, unaweza kunielekeza?"
+  },
+  {
+    "id": 519,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda viatu sana, I really like it too much!"
+  },
+  {
+    "id": 520,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy nanasi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 521,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda kiazi sana, I really like it too much!"
+  },
+  {
+    "id": 522,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-read/study kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 523,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy blanketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 524,
+    "category": "Greetings mix",
+    "mzungu_message": "Hujambo! I am good leo, na wewe?"
+  },
+  {
+    "id": 525,
+    "category": "Shopping",
+    "mzungu_message": "How much ni samaki? Naomba unipunguzie."
+  },
+  {
+    "id": 526,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'meat' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 527,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want meat kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 528,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni so so, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 529,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda kanisani, unaweza kunielekeza?"
+  },
+  {
+    "id": 530,
+    "category": "Locations",
+    "mzungu_message": "How do I get to school? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 531,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'coffee' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 532,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell taulo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 533,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy kahawa, bei gani?"
+  },
+  {
+    "id": 534,
+    "category": "Small talk",
+    "mzungu_message": "Weather leo ni great, sivyo? Sina uhakika kama nasema sawa."
+  },
+  {
+    "id": 535,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want bread kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 536,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want coffee kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 537,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'heart' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 538,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka suruali, tafadhali, do you have?"
+  },
+  {
+    "id": 539,
+    "category": "Greetings mix",
+    "mzungu_message": "Mambo vipi? I'm doing great, asante sana!"
+  },
+  {
+    "id": 540,
+    "category": "Learning/Classroom",
+    "mzungu_message": "Teacher, unaweza kunifundisha kuhusu vyakula vya Kitanzania?"
+  },
+  {
+    "id": 541,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell kiti, sijui vitenzi vizuri."
+  },
+  {
+    "id": 542,
+    "category": "Shopping",
+    "mzungu_message": "How much ni maji? Naomba unipunguzie."
+  },
+  {
+    "id": 543,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash ndizi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 544,
+    "category": "Locations",
+    "mzungu_message": "Dukani iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 545,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya kofia? It's too expensive kwa mimi."
+  },
+  {
+    "id": 546,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'soap' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 547,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba chair, is that ok kusema hivyo?"
+  },
+  {
+    "id": 548,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua potato, do you accept mobile money?"
+  },
+  {
+    "id": 549,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'teacher' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 550,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to wait' kwa usahihi?"
+  },
+  {
+    "id": 551,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya nyama? It's too expensive kwa mimi."
+  },
+  {
+    "id": 552,
+    "category": "Locations",
+    "mzungu_message": "Kanisani iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 553,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-travel jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 554,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'mosque' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 555,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-understand jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 556,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want water kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 557,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 558,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-forget kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 559,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell mafuta ya kupikia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 560,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua table, do you accept mobile money?"
+  },
+  {
+    "id": 561,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want bag kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 562,
+    "category": "Locations",
+    "mzungu_message": "Is church karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 563,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want bus ticket kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 564,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for kuku, sijui vitenzi vizuri."
+  },
+  {
+    "id": 565,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya kuku? It's too expensive kwa mimi."
+  },
+  {
+    "id": 566,
+    "category": "Shopping",
+    "mzungu_message": "How much ni kiti? Naomba unipunguzie."
+  },
+  {
+    "id": 567,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'hotel' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 568,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua bus ticket, do you accept mobile money?"
+  },
+  {
+    "id": 569,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the restaurant? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 570,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka basi tiketi, tafadhali, do you have?"
+  },
+  {
+    "id": 571,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-help kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 572,
+    "category": "Locations",
+    "mzungu_message": "Bandarini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 573,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka wali, tafadhali, do you have?"
+  },
+  {
+    "id": 574,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to speak' kwa usahihi?"
+  },
+  {
+    "id": 575,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba egg, is that ok kusema hivyo?"
+  },
+  {
+    "id": 576,
+    "category": "Small talk",
+    "mzungu_message": "Napenda sana chakula cha Kitanzania, especially kiazi!"
+  },
+  {
+    "id": 577,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka hotelini? Please explain kwa taratibu."
+  },
+  {
+    "id": 578,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy mkate, bei gani?"
+  },
+  {
+    "id": 579,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get gari? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 580,
+    "category": "Shopping",
+    "mzungu_message": "How much ni embe? Naomba unipunguzie."
+  },
+  {
+    "id": 581,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya taulo? It's too expensive kwa mimi."
+  },
+  {
+    "id": 582,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda dawa sana, I really like it too much!"
+  },
+  {
+    "id": 583,
+    "category": "Shopping",
+    "mzungu_message": "How much ni kuku? Naomba unipunguzie."
+  },
+  {
+    "id": 584,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua bread, do you accept mobile money?"
+  },
+  {
+    "id": 585,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-write jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 586,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to sell' kwa usahihi?"
+  },
+  {
+    "id": 587,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua bag, do you accept mobile money?"
+  },
+  {
+    "id": 588,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-sleep jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 589,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-laugh jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 590,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the shop? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 591,
+    "category": "Locations",
+    "mzungu_message": "Bustanini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 592,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya kitabu? It's too expensive kwa mimi."
+  },
+  {
+    "id": 593,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda simu sana, I really like it too much!"
+  },
+  {
+    "id": 594,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka meza, tafadhali, do you have?"
+  },
+  {
+    "id": 595,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka kiazi, tafadhali, do you have?"
+  },
+  {
+    "id": 596,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka ofisini? Please explain kwa taratibu."
+  },
+  {
+    "id": 597,
+    "category": "Shopping",
+    "mzungu_message": "How much ni suruali? Naomba unipunguzie."
+  },
+  {
+    "id": 598,
+    "category": "Shopping",
+    "mzungu_message": "How much ni mafuta? Naomba unipunguzie."
+  },
+  {
+    "id": 599,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get basi tiketi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 600,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'pineapple' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 601,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda embe sana, I really like it too much!"
+  },
+  {
+    "id": 602,
+    "category": "Locations",
+    "mzungu_message": "Is the field/airport karibu au mbali? Sijui tofauti."
+  },
+  {
+    "id": 603,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get mkate? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 604,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba shirt, is that ok kusema hivyo?"
+  },
+  {
+    "id": 605,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'bread' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 606,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-know kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 607,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-pay kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 608,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want tomato kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 609,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want egg kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 610,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-sing jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 611,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba hat, is that ok kusema hivyo?"
+  },
+  {
+    "id": 612,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba pineapple, is that ok kusema hivyo?"
+  },
+  {
+    "id": 613,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get mafuta ya kupikia? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 614,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-sing kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 615,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-love/like kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 616,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka viatu, tafadhali, do you have?"
+  },
+  {
+    "id": 617,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get nyanya? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 618,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua egg, do you accept mobile money?"
+  },
+  {
+    "id": 619,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda wali sana, I really like it too much!"
+  },
+  {
+    "id": 620,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open gari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 621,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'farmer' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 622,
+    "category": "Shopping",
+    "mzungu_message": "How much ni saa? Naomba unipunguzie."
+  },
+  {
+    "id": 623,
+    "category": "Shopping",
+    "mzungu_message": "How much ni shati? Naomba unipunguzie."
+  },
+  {
+    "id": 624,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to clean' kwa usahihi?"
+  },
+  {
+    "id": 625,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'month' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 626,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba coffee, is that ok kusema hivyo?"
+  },
+  {
+    "id": 627,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to read/study' kwa usahihi?"
+  },
+  {
+    "id": 628,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua phone, do you accept mobile money?"
+  },
+  {
+    "id": 629,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-remember jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 630,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka nyanya, tafadhali, do you have?"
+  },
+  {
+    "id": 631,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy meza, sijui vitenzi vizuri."
+  },
+  {
+    "id": 632,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'clock/watch' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 633,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get kahawa? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 634,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua trousers, do you accept mobile money?"
+  },
+  {
+    "id": 635,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka chumvi, tafadhali, do you have?"
+  },
+  {
+    "id": 636,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell nguo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 637,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open blanketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 638,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'child' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 639,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya viatu? It's too expensive kwa mimi."
+  },
+  {
+    "id": 640,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy embe, bei gani?"
+  },
+  {
+    "id": 641,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya chai? It's too expensive kwa mimi."
+  },
+  {
+    "id": 642,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua clothes, do you accept mobile money?"
+  },
+  {
+    "id": 643,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya kiazi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 644,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell gari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 645,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda maji sana, I really like it too much!"
+  },
+  {
+    "id": 646,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'mountain' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 647,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy chakula, bei gani?"
+  },
+  {
+    "id": 648,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy nyanya, bei gani?"
+  },
+  {
+    "id": 649,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook kiazi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 650,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for saa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 651,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka kofia, tafadhali, do you have?"
+  },
+  {
+    "id": 652,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to pay' kwa usahihi?"
+  },
+  {
+    "id": 653,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'hand' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 654,
+    "category": "Transport",
+    "mzungu_message": "Nauli ni bei gani mpaka stendi? Please explain kwa taratibu."
+  },
+  {
+    "id": 655,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda ndizi sana, I really like it too much!"
+  },
+  {
+    "id": 656,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get saa? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 657,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua shoes, do you accept mobile money?"
+  },
+  {
+    "id": 658,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-write kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 659,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua fish, do you accept mobile money?"
+  },
+  {
+    "id": 660,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy samaki, bei gani?"
+  },
+  {
+    "id": 661,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka simu, tafadhali, do you have?"
+  },
+  {
+    "id": 662,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get simu? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 663,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for kitabu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 664,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya ndizi? It's too expensive kwa mimi."
+  },
+  {
+    "id": 665,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-drink kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 666,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close suruali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 667,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda gari sana, I really like it too much!"
+  },
+  {
+    "id": 668,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy kuku, bei gani?"
+  },
+  {
+    "id": 669,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'school' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 670,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy nguo, bei gani?"
+  },
+  {
+    "id": 671,
+    "category": "Locations",
+    "mzungu_message": "Nyumbani iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 672,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get taulo? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 673,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba potato, is that ok kusema hivyo?"
+  },
+  {
+    "id": 674,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook ndizi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 675,
+    "category": "Locations",
+    "mzungu_message": "Where is hospitali? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 676,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda mbuzi sana, I really like it too much!"
+  },
+  {
+    "id": 677,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua salt, do you accept mobile money?"
+  },
+  {
+    "id": 678,
+    "category": "Shopping",
+    "mzungu_message": "How much ni taulo? Naomba unipunguzie."
+  },
+  {
+    "id": 679,
+    "category": "Shopping",
+    "mzungu_message": "How much ni begi? Naomba unipunguzie."
+  },
+  {
+    "id": 680,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua chair, do you accept mobile money?"
+  },
+  {
+    "id": 681,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua tea, do you accept mobile money?"
+  },
+  {
+    "id": 682,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 683,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba soup, is that ok kusema hivyo?"
+  },
+  {
+    "id": 684,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy mafuta ya kupikia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 685,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda benki, unaweza kunielekeza?"
+  },
+  {
+    "id": 686,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close kofia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 687,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba phone, is that ok kusema hivyo?"
+  },
+  {
+    "id": 688,
+    "category": "Shopping",
+    "mzungu_message": "How much ni supu? Naomba unipunguzie."
+  },
+  {
+    "id": 689,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get kiazi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 690,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy gari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 691,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'friend' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 692,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua coffee, do you accept mobile money?"
+  },
+  {
+    "id": 693,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get nanasi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 694,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'car' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 695,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua blanket, do you accept mobile money?"
+  },
+  {
+    "id": 696,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want shoes kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 697,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'hospital' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 698,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for begi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 699,
+    "category": "Shopping",
+    "mzungu_message": "How much ni chakula? Naomba unipunguzie."
+  },
+  {
+    "id": 700,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda saa sana, I really like it too much!"
+  },
+  {
+    "id": 701,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat nanasi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 702,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka mboga, tafadhali, do you have?"
+  },
+  {
+    "id": 703,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua water, do you accept mobile money?"
+  },
+  {
+    "id": 704,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get chakula? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 705,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 706,
+    "category": "Shopping",
+    "mzungu_message": "How much ni nyama? Naomba unipunguzie."
+  },
+  {
+    "id": 707,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'chair' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 708,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy taulo, bei gani?"
+  },
+  {
+    "id": 709,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close kiti, sijui vitenzi vizuri."
+  },
+  {
+    "id": 710,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda mafuta sana, I really like it too much!"
+  },
+  {
+    "id": 711,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba clothes, is that ok kusema hivyo?"
+  },
+  {
+    "id": 712,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka dawa, tafadhali, do you have?"
+  },
+  {
+    "id": 713,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash kitabu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 714,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'food' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 715,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell maji, sijui vitenzi vizuri."
+  },
+  {
+    "id": 716,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open mafuta ya kupikia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 717,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to walk' kwa usahihi?"
+  },
+  {
+    "id": 718,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua shirt, do you accept mobile money?"
+  },
+  {
+    "id": 719,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda chai sana, I really like it too much!"
+  },
+  {
+    "id": 720,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to want' kwa usahihi?"
+  },
+  {
+    "id": 721,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 722,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-cook kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 723,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda mafuta ya kupikia sana, I really like it too much!"
+  },
+  {
+    "id": 724,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to forget' kwa usahihi?"
+  },
+  {
+    "id": 725,
+    "category": "Shopping",
+    "mzungu_message": "How much ni meza? Naomba unipunguzie."
+  },
+  {
+    "id": 726,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 727,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 728,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 729,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want potato kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 730,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for viatu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 731,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy saa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 732,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 733,
+    "category": "Shopping",
+    "mzungu_message": "How much ni chumvi? Naomba unipunguzie."
+  },
+  {
+    "id": 734,
+    "category": "Locations",
+    "mzungu_message": "Nataka kwenda kijijini, unaweza kunielekeza?"
+  },
+  {
+    "id": 735,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy mbuzi, bei gani?"
+  },
+  {
+    "id": 736,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy suruali, bei gani?"
+  },
+  {
+    "id": 737,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get kitabu? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 738,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell nanasi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 739,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy mafuta, bei gani?"
+  },
+  {
+    "id": 740,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get maji? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 741,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda mkate sana, I really like it too much!"
+  },
+  {
+    "id": 742,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash nyama, sijui vitenzi vizuri."
+  },
+  {
+    "id": 743,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy supu, bei gani?"
+  },
+  {
+    "id": 744,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'year' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 745,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'police officer' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 746,
+    "category": "Actions/Verbs",
+    "mzungu_message": "How do I say 'I want to think' kwa usahihi?"
+  },
+  {
+    "id": 747,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 748,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy nyama, sijui vitenzi vizuri."
+  },
+  {
+    "id": 749,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink nyanya, sijui vitenzi vizuri."
+  },
+  {
+    "id": 750,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open viatu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 751,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want shirt kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 752,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-play jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 753,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda nyama sana, I really like it too much!"
+  },
+  {
+    "id": 754,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell chumvi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 755,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get mbuzi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 756,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 757,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'table' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 758,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy shati, bei gani?"
+  },
+  {
+    "id": 759,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba watch, is that ok kusema hivyo?"
+  },
+  {
+    "id": 760,
+    "category": "Locations",
+    "mzungu_message": "Where is basi? Sielewi jinsi ya kuuliza kwa usahihi."
+  },
+  {
+    "id": 761,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-open kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 762,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 763,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for chumvi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 764,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 765,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat nyanya, sijui vitenzi vizuri."
+  },
+  {
+    "id": 766,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'market' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 767,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash mafuta ya kupikia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 768,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'chicken' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 769,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-laugh kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 770,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy nyanya, sijui vitenzi vizuri."
+  },
+  {
+    "id": 771,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 772,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash begi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 773,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close simu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 774,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy kiti, bei gani?"
+  },
+  {
+    "id": 775,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get dawa? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 776,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 777,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get chai? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 778,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-speak jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 779,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'shoes' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 780,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy yai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 781,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy kiazi, bei gani?"
+  },
+  {
+    "id": 782,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell basi tiketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 783,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 784,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'engineer' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 785,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'potato' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 786,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'key' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 787,
+    "category": "Locations",
+    "mzungu_message": "How do I get to the garden/park? Tafadhali nisaidie kwa maneno sahihi."
+  },
+  {
+    "id": 788,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close yai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 789,
+    "category": "Locations",
+    "mzungu_message": "Msikitini iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 790,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'mango' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 791,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy mafuta ya kupikia, bei gani?"
+  },
+  {
+    "id": 792,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-buy jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 793,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'mother' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 794,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'cloud' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 795,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for nanasi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 796,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'wind' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 797,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close sabuni, sijui vitenzi vizuri."
+  },
+  {
+    "id": 798,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell ndizi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 799,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy chai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 800,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'cat' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 801,
+    "category": "Locations",
+    "mzungu_message": "Uwanjani iko wapi? Is it far kutoka hapa?"
+  },
+  {
+    "id": 802,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want blanket kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 803,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get sukari? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 804,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 805,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook nyama, sijui vitenzi vizuri."
+  },
+  {
+    "id": 806,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy mboga, bei gani?"
+  },
+  {
+    "id": 807,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka blanketi, tafadhali, do you have?"
+  },
+  {
+    "id": 808,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for chai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 809,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash shati, sijui vitenzi vizuri."
+  },
+  {
+    "id": 810,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want hat kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 811,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'salt' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 812,
+    "category": "Shopping",
+    "mzungu_message": "How much ni kahawa? Naomba unipunguzie."
+  },
+  {
+    "id": 813,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash dawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 814,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy sukari, bei gani?"
+  },
+  {
+    "id": 815,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell shati, sijui vitenzi vizuri."
+  },
+  {
+    "id": 816,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy chumvi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 817,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'clothes' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 818,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda taulo sana, I really like it too much!"
+  },
+  {
+    "id": 819,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell chakula, sijui vitenzi vizuri."
+  },
+  {
+    "id": 820,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get begi? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 821,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'rain' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 822,
+    "category": "Shopping",
+    "mzungu_message": "How much ni wali? Naomba unipunguzie."
+  },
+  {
+    "id": 823,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink wali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 824,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka sukari, tafadhali, do you have?"
+  },
+  {
+    "id": 825,
+    "category": "Shopping",
+    "mzungu_message": "How much ni basi tiketi? Naomba unipunguzie."
+  },
+  {
+    "id": 826,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'loneliness' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 827,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for mafuta ya kupikia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 828,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook yai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 829,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-open jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 830,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nita-cry kesho, is that sentensi sahihi?"
+  },
+  {
+    "id": 831,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close shati, sijui vitenzi vizuri."
+  },
+  {
+    "id": 832,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'toilet' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 833,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-work jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 834,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy mafuta, sijui vitenzi vizuri."
+  },
+  {
+    "id": 835,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy kitabu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 836,
+    "category": "Wants/Needs",
+    "mzungu_message": "I want salt kidogo, unaweza kunisaidia?"
+  },
+  {
+    "id": 837,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink chai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 838,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat wali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 839,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'hat' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 840,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'shop' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 841,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'soup' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 842,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell dawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 843,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash meza, sijui vitenzi vizuri."
+  },
+  {
+    "id": 844,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink maji, sijui vitenzi vizuri."
+  },
+  {
+    "id": 845,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 846,
+    "category": "Shopping",
+    "mzungu_message": "Bei gani ya saa? It's too expensive kwa mimi."
+  },
+  {
+    "id": 847,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy nanasi, bei gani?"
+  },
+  {
+    "id": 848,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'cow' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 849,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get embe? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 850,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'book' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 851,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Nili-see jana lakini sijui kama nimesema vizuri."
+  },
+  {
+    "id": 852,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close meza, sijui vitenzi vizuri."
+  },
+  {
+    "id": 853,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get mboga? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 854,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba shoes, is that ok kusema hivyo?"
+  },
+  {
+    "id": 855,
+    "category": "Wants/Needs",
+    "mzungu_message": "Can I get nyama? Sijui kama ni sahihi kusema hivi."
+  },
+  {
+    "id": 856,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy chumvi, bei gani?"
+  },
+  {
+    "id": 857,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 858,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open kofia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 859,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash kiti, sijui vitenzi vizuri."
+  },
+  {
+    "id": 860,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'bird' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 861,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'door' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 862,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink ndizi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 863,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 864,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'airport' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 865,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell kitabu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 866,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy dawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 867,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka kiti, tafadhali, do you have?"
+  },
+  {
+    "id": 868,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'tomato' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 869,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 870,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'bus' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 871,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'money' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 872,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua mango, do you accept mobile money?"
+  },
+  {
+    "id": 873,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close viatu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 874,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda samaki sana, I really like it too much!"
+  },
+  {
+    "id": 875,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'forest' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 876,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy sabuni, sijui vitenzi vizuri."
+  },
+  {
+    "id": 877,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'skin' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 878,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua sugar, do you accept mobile money?"
+  },
+  {
+    "id": 879,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink nyama, sijui vitenzi vizuri."
+  },
+  {
+    "id": 880,
+    "category": "Wants/Needs",
+    "mzungu_message": "Naomba mango, is that ok kusema hivyo?"
+  },
+  {
+    "id": 881,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 882,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'bag' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 883,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'office' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 884,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell begi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 885,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'blanket' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 886,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy simu, bei gani?"
+  },
+  {
+    "id": 887,
+    "category": "Wants/Needs",
+    "mzungu_message": "Ninataka ku-buy begi, bei gani?"
+  },
+  {
+    "id": 888,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell sabuni, sijui vitenzi vizuri."
+  },
+  {
+    "id": 889,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash wali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 890,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'shirt' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 891,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat kiazi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 892,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash chakula, sijui vitenzi vizuri."
+  },
+  {
+    "id": 893,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell mbuzi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 894,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 895,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close sukari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 896,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash maji, sijui vitenzi vizuri."
+  },
+  {
+    "id": 897,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close taulo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 898,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'anger' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 899,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua tomato, do you accept mobile money?"
+  },
+  {
+    "id": 900,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'doctor' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 901,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close mafuta, sijui vitenzi vizuri."
+  },
+  {
+    "id": 902,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open basi tiketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 903,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 904,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash saa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 905,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash nanasi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 906,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy wali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 907,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash basi tiketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 908,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell suruali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 909,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink yai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 910,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open simu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 911,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 912,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close chumvi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 913,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for kiazi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 914,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'sugar' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 915,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'minute' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 916,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat ugali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 917,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open nguo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 918,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy nguo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 919,
+    "category": "Small talk",
+    "mzungu_message": "Ninapenda chakula sana, I really like it too much!"
+  },
+  {
+    "id": 920,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 921,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 922,
+    "category": "Shopping",
+    "mzungu_message": "Ninataka kununua towel, do you accept mobile money?"
+  },
+  {
+    "id": 923,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'week' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 924,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close ndizi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 925,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open kitabu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 926,
+    "category": "Wants/Needs",
+    "mzungu_message": "Nataka ndizi, tafadhali, do you have?"
+  },
+  {
+    "id": 927,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open nyama, sijui vitenzi vizuri."
+  },
+  {
+    "id": 928,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close kiazi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 929,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'banana' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 930,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash taulo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 931,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 932,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash blanketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 933,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'happiness' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 934,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'rice' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 935,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat yai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 936,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 937,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 938,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook wali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 939,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 940,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'sun' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 941,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for kiti, sijui vitenzi vizuri."
+  },
+  {
+    "id": 942,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 943,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close basi tiketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 944,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close begi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 945,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'eye' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 946,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for meza, sijui vitenzi vizuri."
+  },
+  {
+    "id": 947,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'tea' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 948,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close wali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 949,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat kuku, sijui vitenzi vizuri."
+  },
+  {
+    "id": 950,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink mkate, sijui vitenzi vizuri."
+  },
+  {
+    "id": 951,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'lion' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 952,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open yai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 953,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 954,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'stomach' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 955,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'river' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 956,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook ugali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 957,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 958,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink nanasi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 959,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for yai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 960,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for mboga, sijui vitenzi vizuri."
+  },
+  {
+    "id": 961,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for mbuzi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 962,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell sukari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 963,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash chai, sijui vitenzi vizuri."
+  },
+  {
+    "id": 964,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open begi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 965,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash nguo, sijui vitenzi vizuri."
+  },
+  {
+    "id": 966,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash kuku, sijui vitenzi vizuri."
+  },
+  {
+    "id": 967,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for dawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 968,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash chumvi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 969,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash mbuzi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 970,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy suruali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 971,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open dawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 972,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash gari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 973,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy embe, sijui vitenzi vizuri."
+  },
+  {
+    "id": 974,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell wali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 975,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 976,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 977,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook nyanya, sijui vitenzi vizuri."
+  },
+  {
+    "id": 978,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-drink kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 979,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for kofia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 980,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-cook nanasi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 981,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell mafuta, sijui vitenzi vizuri."
+  },
+  {
+    "id": 982,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-sell viatu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 983,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy ndizi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 984,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash suruali, sijui vitenzi vizuri."
+  },
+  {
+    "id": 985,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy viatu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 986,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash kofia, sijui vitenzi vizuri."
+  },
+  {
+    "id": 987,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy kahawa, sijui vitenzi vizuri."
+  },
+  {
+    "id": 988,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for blanketi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 989,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for sukari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 990,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-eat samaki, sijui vitenzi vizuri."
+  },
+  {
+    "id": 991,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy sukari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 992,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for gari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 993,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-wash sabuni, sijui vitenzi vizuri."
+  },
+  {
+    "id": 994,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close nyanya, sijui vitenzi vizuri."
+  },
+  {
+    "id": 995,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'leg' kwa Kiswahili sahihi?"
+  },
+  {
+    "id": 996,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-pay for maji, sijui vitenzi vizuri."
+  },
+  {
+    "id": 997,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-buy mbuzi, sijui vitenzi vizuri."
+  },
+  {
+    "id": 998,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-close gari, sijui vitenzi vizuri."
+  },
+  {
+    "id": 999,
+    "category": "Actions/Verbs",
+    "mzungu_message": "Ninataka ku-open supu, sijui vitenzi vizuri."
+  },
+  {
+    "id": 1000,
+    "category": "Learning/Classroom",
+    "mzungu_message": "How do you say 'cook' kwa Kiswahili sahihi?"
+  }
+]

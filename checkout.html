@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — ChatPay</title>
+  <meta name="description"
+    content="Pay securely for your ChatPay Kiswahili session via M-Pesa, Airtel Money, or Tigo Pesa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="checkout-page">
+  <header class="checkout-header">
+    <a class="logo" href="/"><i></i>ChatPay</a>
+    <span>Secure checkout</span>
+  </header>
+
+  <main class="checkout-layout">
+    <!-- ── LEFT: payment form ─────────────────────────────────────── -->
+    <section class="checkout-main">
+      <a class="back-link" href="/">Back to ChatPay</a>
+      <p class="eyebrow">One step to your conversation</p>
+      <h1>Pay with<br><em>Mobile Money.</em></h1>
+
+      <!-- Step 1: enter phone and submit -->
+      <div id="step-form">
+        <div class="payment-options">
+          <button class="pay-option selected" type="button">
+            <span class="provider-logo mpesa">C</span>
+            <span>
+              <b>HarakaPay Collection API</b>
+              <small>Tigo Pesa · Airtel Money (Active) · M-Pesa · HaloPesa</small>
+            </span>
+            <i>✓</i>
+          </button>
+        </div>
+
+        <label class="phone-label" for="phone-input">
+          Your mobile money number
+          <span class="phone-hint">Enter your local number (e.g. 0712345678) or with country code (e.g.
+            255784123456)</span>
+        </label>
+        <input class="phone-input" id="phone-input" type="tel" placeholder="0712345678 or 255784123456"
+          inputmode="numeric" autocomplete="tel" maxlength="15">
+
+        <p class="payment-message" id="payment-message" aria-live="polite"></p>
+
+        <button class="primary-button pay-button" id="pay-button" type="button">
+          Send payment request <span>→</span>
+        </button>
+        <p class="checkout-note">
+          You'll receive a USSD prompt on your phone. Enter your mobile money PIN to confirm.
+        </p>
+      </div>
+
+      <!-- Step 2: waiting / polling screen -->
+      <div id="step-waiting" style="display:none">
+        <div class="waiting-animation" id="waiting-icon" role="img" aria-label="Waiting for payment">
+          <div class="pulse-ring"></div>
+          <div class="pulse-ring delay1"></div>
+          <div class="pulse-ring delay2"></div>
+          <span class="waiting-phone">📱</span>
+        </div>
+        <h2 class="waiting-title" id="waiting-title">Check your phone</h2>
+        <p class="waiting-desc" id="waiting-desc">
+          A USSD prompt has been sent to <strong id="phone-display"></strong>.<br>
+          Enter your mobile money PIN to complete the payment.
+        </p>
+        <p class="waiting-status" id="waiting-status">Waiting for authorisation…</p>
+
+        <button class="secondary-button" id="cancel-button" type="button">
+          Start over
+        </button>
+      </div>
+
+      <!-- Step 3: success -->
+      <div id="step-success" style="display:none">
+        <div class="success-icon">✓</div>
+        <h2 class="waiting-title">Payment confirmed!</h2>
+        <p class="waiting-desc">Your session has been booked. Your teacher will accept shortly.</p>
+        <a class="primary-button" href="/" id="go-home-button">Back to ChatPay</a>
+      </div>
+
+      <!-- Step 4: failed -->
+      <div id="step-failed" style="display:none">
+        <div class="failed-icon">✕</div>
+        <h2 class="waiting-title">Payment failed</h2>
+        <p class="waiting-desc" id="failed-desc">The payment was not completed. Please try again.</p>
+        <button class="primary-button pay-button" id="retry-button" type="button">Try again</button>
+      </div>
+    </section>
+
+    <!-- ── RIGHT: order summary ───────────────────────────────────── -->
+    <aside class="order-card">
+      <p class="eyebrow">Your session</p>
+      <div class="order-teacher">
+        <div class="order-avatar">✦</div>
+        <div>
+          <h2 id="teacher-name">Your teacher</h2>
+          <p>Live Kiswahili conversation</p>
+        </div>
+      </div>
+      <div class="order-line">
+        <span>30 minute session</span>
+        <b id="session-price">—</b>
+      </div>
+      <div class="order-line total">
+        <span>Total</span>
+        <b id="total-price">—</b>
+      </div>
+      <div class="payment-status" id="payment-status">Ready to pay</div>
+    </aside>
+  </main>
+
+  <script src="checkout.js"></script>
+</body>
+
+</html>

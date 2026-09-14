@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="sw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Chat na wazungu waliopo live na upate malipo kila dakika. Jiunge na ChatPay leo uanze kupokea malipo kwenye M-Pesa, Tigo Pesa na Airtel Money.">
+  <title>ChatPay — Chat na Ulipwe | Pata Malipo kwa Kuchat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Top Live Announcement Bar -->
+  <div class="announcement">
+    🔥 Nafasi za kuchat zimebaki chache! Malipo ni ya papo hapo kupitia M-Pesa &amp; Tigo Pesa
+    <span class="online-counter-badge"><span class="online-dot"></span> 2,459 Wazungu Live</span>
+  </div>
+
+  <!-- Header Navigation & Wallet -->
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="ChatPay home"><i></i>ChatPay</a>
+    <nav aria-label="Main navigation">
+      <a href="#live-partners">Wazungu Live</a>
+      <a href="#how-it-works">Jifunze Utaratibu</a>
+      <a href="#support-section">Mtoa Huduma</a>
+      <a href="#chat-tips" id="nav-tips-btn">Mifano ya Mazungumzo</a>
+    </nav>
+
+    <div class="header-actions">
+      <!-- Live Wallet Balance Pill & Direct Withdraw Button -->
+      <div class="header-wallet">
+        <div class="wallet-badge" id="wallet-pill" title="Salio lako la sasa">
+          <i>💰</i> <span class="wallet-amount" id="header-wallet-amount">TSh 0.00</span>
+        </div>
+        <button class="withdraw-btn open-withdraw-modal" type="button">
+          Kutoa Pesa ↗
+        </button>
+      </div>
+
+      <!-- Logged Out Actions -->
+      <div id="logged-out-actions" class="logged-out-actions">
+        <a class="text-button" id="login-link" href="https://moxeraagencies.com/login" target="_blank"
+          rel="noopener noreferrer">Ingia</a>
+        <a class="small-button" href="https://moxeraagencies.com/register?ref=Kendrich" target="_blank"
+          rel="noopener noreferrer">Jisajili</a>
+      </div>
+
+      <!-- Logged In User Dropdown -->
+      <div class="user-menu-wrap" id="user-menu-wrap" style="display:none">
+        <button class="user-pill-btn" id="user-pill-btn" type="button" aria-expanded="false">
+          <span class="user-avatar-badge" id="nav-user-avatar">✦</span>
+          <span class="user-pill-name" id="nav-user-name">Mtumiaji</span>
+          <span class="user-pill-chevron">▼</span>
+        </button>
+        <div class="user-dropdown-menu" id="user-dropdown-menu" role="menu">
+          <div class="dropdown-header">
+            <strong id="dropdown-user-name">Jina la Mtumiaji</strong>
+            <small id="dropdown-user-email">email@example.com</small>
+            <span class="role-badge" id="dropdown-user-role">Mtumiaji</span>
+          </div>
+          <div class="dropdown-divider"></div>
+          <button class="dropdown-item" id="menu-withdraw-btn" type="button">
+            <span class="dropdown-icon">💸</span>
+            <span>Kutoa Pesa (Withdraw)</span>
+          </button>
+          <button class="dropdown-item" id="menu-sessions-btn" type="button">
+            <span class="dropdown-icon">💬</span>
+            <span>Historia ya Kuchat &amp; Malipo</span>
+          </button>
+          <button class="dropdown-item" id="menu-profile-btn" type="button">
+            <span class="dropdown-icon">⚙️</span>
+            <span>Badili Taarifa (Profile)</span>
+          </button>
+          <div class="dropdown-divider"></div>
+          <button class="dropdown-item logout-btn" id="menu-logout-btn" type="button">
+            <span class="dropdown-icon">🚪</span>
+            <span>Toka (Log out)</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Real-time Live Payouts Ticker (Malipo ya Hivi Punde) -->
+  <section class="payout-ticker-wrap" aria-label="Malipo ya hivi punde">
+    <div class="payout-ticker-inner" id="payout-ticker">
+      <!-- Loaded dynamically from /api/recent-payouts -->
+      <div class="payout-item"><span class="payout-dot">●</span> <span class="payout-name">Mwajuma H. (Dar)</span>
+        amepokea <span class="payout-sum">TSh 180,000</span> <span class="payout-provider">M-Pesa</span> <span
+          class="payout-time">sekunde 24 zilizopita</span></div>
+      <div class="payout-item"><span class="payout-dot">●</span> <span class="payout-name">Baraka M. (Arusha)</span>
+        amepokea <span class="payout-sum">TSh 45,000</span> <span class="payout-provider">Tigo Pesa</span> <span
+          class="payout-time">dakika 1 iliyopita</span></div>
+      <div class="payout-item"><span class="payout-dot">●</span> <span class="payout-name">Neema J. (Mwanza)</span>
+        amepokea <span class="payout-sum">TSh 70,000</span> <span class="payout-provider">Airtel Money</span> <span
+          class="payout-time">dakika 2 zilizopita</span></div>
+      <div class="payout-item"><span class="payout-dot">●</span> <span class="payout-name">Salum K. (Dodoma)</span>
+        amepokea <span class="payout-sum">TSh 120,000</span> <span class="payout-provider">M-Pesa</span> <span
+          class="payout-time">dakika 4 zilizopita</span></div>
+      <div class="payout-item"><span class="payout-dot">●</span> <span class="payout-name">Fatuma A. (Zanzibar)</span>
+        amepokea <span class="payout-sum">TSh 55,000</span> <span class="payout-provider">Tigo Pesa</span> <span
+          class="payout-time">dakika 5 zilizopita</span></div>
+      <div class="payout-item"><span class="payout-dot">●</span> <span class="payout-name">Joseph N. (Morogoro)</span>
+        amepokea <span class="payout-sum">TSh 90,000</span> <span class="payout-provider">HaloPesa</span> <span
+          class="payout-time">dakika 7 zilizopita</span></div>
+    </div>
+  </section>
+
+  <main id="top">
+    <!-- ── HERO SECTION ─────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> Mfumo Rasmi wa Malipo ya Kuchat Tanzania</p>
+        <h1>Chat na Wazungu<br><em>waliopo live.</em></h1>
+        <p class="hero-text">
+          Fungua akaunti yako leo na anza kupata malipo kwa kila dakika unayochat. Zungumza kuhusu safari, vyakula,
+          muziki, na biashara na upate malipo ya papo hapo kupitia M-Pesa, Tigo Pesa au Airtel Money.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="https://moxeraagencies.com/register?ref=Kendrich" target="_blank"
+            rel="noopener noreferrer">
+            Fungua Akaunti Sasa <span>↗</span>
+          </a>
+          <a class="outline-button" href="https://moxeraagencies.com/login" target="_blank" rel="noopener noreferrer">
+            Ingia kwenye Akaunti ↗
+          </a>
+          <a class="watch-link" href="#how-it-works">
+            <b>▶</b> Jifunze Utaratibu
+          </a>
+        </div>
+
+        <div class="support-btn-group">
+          <a class="support-btn-sms" href="sms:0715770521?body=Nina%20swali%20kuhusu%20ChatPay">
+            📩 Msaada wa Haraka (SMS)
+          </a>
+        </div>
+
+        <div class="social-proof">
+          <div class="avatar-stack">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=96&q=80"
+              alt="Mtumiaji">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=96&q=80"
+              alt="Mtumiaji">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=96&q=80"
+              alt="Mtumiaji">
+          </div>
+          <p><strong>14,000+ Watanzania</strong><br>wanapata malipo kila siku</p>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="sun"></div>
+        <div class="arch arch-one"></div>
+        <div class="arch arch-two"></div>
+        <div class="plant plant-left">☘</div>
+        <div class="plant plant-right">❋</div>
+        <div class="hero-person teacher">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85"
+            alt="Mzungu Live">
+        </div>
+        <div class="lesson-card">
+          <p class="mini-label">ONLINE SASA</p>
+          <div class="lesson-head">
+            <span class="flag">🇸🇪</span>
+            <div>
+              <b>Emma Johansson</b>
+              <small>TSh 20,000 / dk 10</small>
+            </div>
+            <span class="dots">•••</span>
+          </div>
+          <div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div class="lesson-foot">
+            <span>“Habari yako? Nipo tayari!”</span>
+            <button type="button" class="open-chat-trigger" data-partner="Emma Johansson">▶</button>
+          </div>
+        </div>
+        <div class="hello-card">
+          <span>💰</span>
+          <div>
+            <b>TSh 45,000</b>
+            <small>Malipo yameingia M-Pesa</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TRUST BAR ────────────────────────────────────────────── -->
+    <section class="trust-row">
+      <p>Nchi Zinazotumia ChatPay: Tanzania · Kenya · Uganda · Rwanda</p>
+      <div>
+        <span>M-PESA</span><span>●</span>
+        <span>TIGO PESA</span><span>●</span>
+        <span>AIRTEL MONEY</span><span>●</span>
+        <span>HALOPESA</span>
+      </div>
+    </section>
+
+    <!-- ── WAZUNGU LIVE (LIVE PARTNERS GRID) ────────────────────── -->
+    <section class="teacher-section" id="live-partners">
+      <div class="teacher-heading">
+        <div>
+          <p class="eyebrow">Wazungu Waliopo Hewani</p>
+          <h2>Wazungu Live<br><em>Chagua &amp; Anza Kuchat.</em></h2>
+          <p class="partners-subhead">Inaonyesha 1–12 kati ya 2,459 waliopo hewani sasa hivi
+            tayari kwa mazungumzo.</p>
+        </div>
+        <button class="outline-button open-withdraw-modal" type="button">
+          Kutoa Salio Lako <span>→</span>
+        </button>
+      </div>
+
+      <!-- Filter Tags -->
+      <div class="filter-bar" id="topic-filters">
+        <button class="filter-btn active" data-filter="all" type="button">Mada Zote (All)</button>
+        <button class="filter-btn" data-filter="safari" type="button">Safari &amp; Utalii</button>
+        <button class="filter-btn" data-filter="muziki" type="button">Muziki &amp; Utamaduni</button>
+        <button class="filter-btn" data-filter="chakula" type="button">Chakula &amp; Mapishi</button>
+        <button class="filter-btn" data-filter="biashara" type="button">Biashara &amp; Uwekezaji</button>
+        <button class="filter-btn" data-filter="teknolojia" type="button">Teknolojia Mpya</button>
+        <button class="filter-btn" data-filter="michezo" type="button">Michezo ya Ulaya</button>
+        <button class="filter-btn" data-filter="elimu" type="button">Elimu &amp; Lugha</button>
+      </div>
+
+      <!-- Dynamic Partners Grid -->
+      <div class="teacher-grid" id="partners-grid">
+        <!-- Populated dynamically via script.js from /api/live-partners -->
+        <div class="sessions-loading">Inapakia wazungu waliopo live…</div>
+      </div>
+    </section>
+
+    <!-- ── HOW IT WORKS (JIFUNZE UTARATIBU) ────────────────────── -->
+    <section class="steps" id="how-it-works">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">Utaratibu Rahisi</p>
+          <h2>Jinsi ya Kuanza<br>na Kupokea Malipo.</h2>
+        </div>
+      </div>
+      <div class="step-list">
+        <article>
+          <span class="step-number">01</span>
+          <div class="step-icon">✦</div>
+          <h3>Jikisajili Akaunti Mpya</h3>
+          <p>Fungua akaunti yako ya ChatPay bure kwa namba yako ya simu kwa sekunde 30 tu.</p>
+        </article>
+        <article>
+          <span class="step-number">02</span>
+          <div class="step-icon">💬</div>
+          <h3>Chagua Mzungu Live</h3>
+          <p>Chagua mzungu uliyempenda na anza kuchat naye kwa Kiswahili au Kiingereza kuhusu mada yoyote.</p>
+        </article>
+        <article>
+          <span class="step-number">03</span>
+          <div class="step-icon">💸</div>
+          <h3>Pokea Pesa Papo Hapo</h3>
+          <p>Salio linaongezeka moja kwa moja kwenye akaunti yako kila dakika. Toa pesa kwenda M-Pesa au Tigo Pesa
+            wakati wowote.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ── SUPPORT & ASSISTANCE (MTOA HUDUMA) ───────────────────── -->
+    <section class="support-section" id="support-section">
+      <div class="section-intro section-intro-flush">
+        <div>
+          <p class="eyebrow">Msaada wa Haraka</p>
+          <h2>Mtoa Huduma &amp; Msaada<br><em>Wasiliana Nasi Papo Hapo.</em></h2>
+          <p class="support-sub">
+            Unashauriwa kuanza na msaidizi wetu wa haraka — atakupima na kukuelekeza hatua kwa hatua hadi uanze kupokea
+            malipo yako ya kwanza.
+          </p>
+        </div>
+      </div>
+
+      <div class="support-grid">
+        <div class="support-card">
+          <div>
+            <h3>📩 Msaada kupitia SMS</h3>
+            <p>Tuma ujumbe mfupi moja kwa moja kwa namba ya huduma kwa wateja ili kupata mwongozo wa haraka wa kuanza
+              kuchat.</p>
+          </div>
+          <a class="support-btn-sms" href="sms:0624931356?body=Nina%20swali%20kuhusu%20ChatPay">
+            Tuma SMS Sasa (0624931356) →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS (MAONI YA WATUMIAJI) ────────────────────── -->
+    <section class="quote-section">
+      <div class="quote-mark">“</div>
+      <blockquote>
+        “Nilianza ChatPay wiki mbili zilizopita, nimeshatoa TSh 180,000. Malipo yanaingia haraka sana kwenye M-Pesa
+        yangu!”
+      </blockquote>
+      <div class="quote-author">
+        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=96&q=80"
+          alt="Mwajuma">
+        <p><b>Mwajuma H.</b><br>Dar es Salaam — Amepokea TSh 180,000</p>
+      </div>
+      <div class="quote-decoration">∿</div>
+    </section>
+
+    <!-- ── BOTTOM CTA ───────────────────────────────────────────── -->
+    <section class="cta">
+      <div>
+        <p class="eyebrow">Anza Leo</p>
+        <h2>Anza Kupokea<br>Pesa Kila Dakika.</h2>
+        <p>Wazungu zaidi ya 2,450 wapo tayari kuzungumza nawe sasa hivi. Jiunge na maelfu ya vijana wanaopata kipato cha
+          ziada kila siku.</p>
+        <a class="primary-button light" href="https://moxeraagencies.com/register?ref=Kendrich" target="_blank"
+          rel="noopener noreferrer">
+          Fungua Akaunti Yako Sasa <span>↗</span>
+        </a>
+      </div>
+      <div class="cta-art">
+        <div class="circle-word">ChatPay • Chat na Ulipwe • M-Pesa • Tigo Pesa • </div>
+        <span>✦</span><span>✳</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────── -->
+  <footer>
+    <a class="logo" href="#top"><i></i>ChatPay</a>
+    <p>© 2026 ChatPay Online Tanzania. Mfumo salama wa malipo ya simu.</p>
+    <div>
+      <a href="#live-partners">Wazungu Live</a>
+      <a href="#how-it-works">Jifunze Utaratibu</a>
+      <a href="#support-section">Msaada</a>
+      <a href="sms:0624931356?body=Nina%20swali%20kuhusu%20ChatPay">SMS Msaada</a>
+    </div>
+  </footer>
+
+  <!-- ── WITHDRAWAL MODAL (KUTOA PESA) ───────────────────────────── -->
+  <div class="modal" id="withdraw-modal">
+    <div class="modal-backdrop close-withdraw-modal"></div>
+    <section class="withdraw-box" role="dialog" aria-modal="true" aria-labelledby="withdraw-title">
+      <button class="modal-close close-withdraw-modal" type="button" aria-label="Funga">×</button>
+      <p class="eyebrow">Mfumo wa Malipo</p>
+      <h2 id="withdraw-title">Kutoa Pesa</h2>
+      <p class="modal-desc">Toa salio lako moja kwa moja kwenye mtandao wako wa simu (M-Pesa, Tigo Pesa, Airtel,
+        HaloPesa).</p>
+
+      <div class="withdraw-balance-banner">
+        <span>SALIO LAKO LA SASA:</span>
+        <b id="modal-wallet-balance">TSh 0.00</b>
+      </div>
+
+      <form id="withdraw-form">
+        <div class="form-field-label">
+          Chagua Mtandao wa Malipo
+        </div>
+        <div class="network-selector" id="network-selector">
+          <button class="network-btn selected" type="button" data-provider="mpesa">
+            <span class="network-badge-logo mpesa">M</span>
+            <span>M-Pesa</span>
+          </button>
+          <button class="network-btn" type="button" data-provider="tigo">
+            <span class="network-badge-logo tigo">T</span>
+            <span>Tigo Pesa</span>
+          </button>
+          <button class="network-btn" type="button" data-provider="airtel">
+            <span class="network-badge-logo airtel">A</span>
+            <span>Airtel</span>
+          </button>
+          <button class="network-btn" type="button" data-provider="halopesa">
+            <span class="network-badge-logo halopesa">H</span>
+            <span>HaloPesa</span>
+          </button>
+        </div>
+
+        <div class="form-field-label form-field-label-mt">
+          <label for="withdraw-phone">Namba ya Simu ya Kupokelea Malipo</label>
+        </div>
+        <input type="tel" id="withdraw-phone" name="phone" required placeholder="Mfano: 0712345678 au 0754123456"
+          class="withdraw-input">
+
+        <div class="form-field-label form-field-label-mt">
+          <label for="withdraw-amount">Kiasi cha Kutoa (TSh)</label>
+        </div>
+        <input type="number" id="withdraw-amount" name="amount" required min="1000" step="1000"
+          placeholder="Mfano: 20000" class="withdraw-input">
+
+        <div class="amount-presets">
+          <button class="preset-btn" type="button" data-val="10000">+10,000</button>
+          <button class="preset-btn" type="button" data-val="20000">+20,000</button>
+          <button class="preset-btn" type="button" data-val="35000">+35,000</button>
+          <button class="preset-btn" type="button" data-val="50000">+50,000</button>
+          <button class="preset-btn" type="button" id="preset-all">Salio Lote</button>
+        </div>
+
+        <p class="profile-msg" id="withdraw-msg"></p>
+        <button class="primary-button withdraw-submit-fullwidth" id="withdraw-submit-btn" type="submit">
+          Toa Pesa Sasa <span>↗</span>
+        </button>
+      </form>
+    </section>
+  </div>
+
+  <!-- ── CONVERSATION TIPS & EXAMPLES MODAL ───────────────────────── -->
+  <div class="modal" id="tips-modal">
+    <div class="modal-backdrop close-tips-modal"></div>
+    <section class="info-modal-box" role="dialog" aria-modal="true" aria-labelledby="tips-title">
+      <button class="modal-close close-tips-modal" type="button" aria-label="Funga">×</button>
+      <p class="eyebrow">Vidokezo vya Mazungumzo</p>
+      <h2 id="tips-title">Mifano &amp; Vidokezo vya Kuchat</h2>
+      <p>Wazungu wengi wanapenda kujifunza maisha ya Afrika, utamaduni, vyakula, na maeneo ya safari. Hapa kuna vidokezo
+        vitakavyokufanya uchat kwa muda mrefu na kupata malipo makubwa:</p>
+
+      <div class="info-tips-list">
+        <div class="tip-item">
+          <h4>1. Anza na Salamu ya Kirafiki</h4>
+          <p>Andika: <em>“Habari! Naitwa [Jina Lako]. Nimefurahi sana kukutana na wewe leo!”</em> Wazungu wanapenda watu
+            wachangamfu na wakarimu.</p>
+        </div>
+        <div class="tip-item">
+          <h4>2. Uliza kuhusu Nchi Yao na Maisha</h4>
+          <p>Andika: <em>“Huko Sweden/Marekani hali ya hewa ipoje leo? Je, umewahi kufika Afrika Mashariki?”</em> Hii
+            inafanya mazungumzo yadumu kwa dakika nyingi zaidi.</p>
+        </div>
+        <div class="tip-item">
+          <h4>3. Eleza kuhusu Vyakula na Safari za Tanzania</h4>
+          <p>Zungumzia jinsi Pilau, Mishkaki, au Chapati zinavyopikwa, au uzuri wa fukwe za Zanzibar na wanyama wa
+            Serengeti.</p>
+        </div>
+      </div>
+
+      <button class="primary-button close-tips-modal tips-close-btn" type="button">
+        Nimeelewa, Anza Kuchat <span>→</span>
+      </button>
+    </section>
+  </div>
+
+  <!-- ── SESSIONS & EARNINGS MODAL ───────────────────────────────── -->
+  <div class="modal" id="sessions-modal">
+    <div class="modal-backdrop close-sessions-modal"></div>
+    <section class="sessions-box" role="dialog" aria-modal="true" aria-labelledby="sessions-title">
+      <button class="modal-close close-sessions-modal" type="button" aria-label="Funga">×</button>
+      <p class="eyebrow">Akaunti Yako</p>
+      <h2 id="sessions-title">Historia ya Kuchat &amp; Malipo</h2>
+      <p class="modal-desc">Orodha ya mazungumzo uliyofanya na miamala yote ya kutoa pesa kwenye simu yako.</p>
+      <div class="sessions-list" id="sessions-list">
+        <p class="sessions-loading">Inapakia taarifa zako…</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ── EDIT PROFILE MODAL ──────────────────────────────────────── -->
+  <div class="modal" id="profile-modal">
+    <div class="modal-backdrop close-profile-modal"></div>
+    <section class="profile-box" role="dialog" aria-modal="true" aria-labelledby="profile-title">
+      <button class="modal-close close-profile-modal" type="button" aria-label="Funga">×</button>
+      <p class="eyebrow">Mipangilio ya Akaunti</p>
+      <h2 id="profile-title">Badili Taarifa</h2>
+      <p class="modal-desc">Badili jina lako, barua pepe, au nenosiri lako.</p>
+      <form id="profile-form">
+        <label>
+          Jina Kamili
+          <input type="text" name="name" id="profile-name" required minlength="2" maxlength="80" autocomplete="name">
+        </label>
+        <label>
+          Barua Pepe (Email)
+          <input type="email" name="email" id="profile-email" required autocomplete="email">
+        </label>
+        <div>
+          <button type="button" class="password-toggle" id="toggle-password-fields">
+            🔒 Badili Nenosiri (Password) ▾
+          </button>
+          <div class="password-fields" id="password-fields" style="display:none">
+            <label>
+              Nenosiri la Sasa
+              <input type="password" name="current_password" id="profile-curr-pass" autocomplete="current-password"
+                placeholder="Weka nenosiri la sasa">
+            </label>
+            <label>
+              Nenosiri Jipya
+              <input type="password" name="new_password" id="profile-new-pass" minlength="8" autocomplete="new-password"
+                placeholder="Herufi 8 au zaidi">
+            </label>
+          </div>
+        </div>
+        <p class="profile-msg" id="profile-msg"></p>
+        <button class="primary-button" id="profile-save-btn" type="submit">Hifadhi Mabadiliko <span>→</span></button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

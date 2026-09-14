@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activate Teacher Account — ChatPay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="checkout-page">
+  <header class="checkout-header"><a class="logo" href="/"><i></i>ChatPay</a><span>Teacher activation</span></header>
+  <main class="checkout-layout enrollment-layout">
+    <section class="checkout-main">
+      <p class="eyebrow">HATUA YA MWISHO</p>
+      <h1>Activate akaunti yako ya <em>mwalimu.</em></h1>
+      <p class="waiting-desc">Lipa ada ya kujiunga ya TSh 16,000 kupitia HarakaPay. Malipo yakithibitishwa, utaweza
+        kuingia dashboard na kuanza kupokea malipo.</p>
+      <div id="enrollment-form">
+        <label class="phone-label">Namba ya Mobile Money<input id="join-phone" class="phone-input" type="tel"
+            autocomplete="tel" placeholder="0712345678"></label>
+        <p class="payment-message" id="join-message" aria-live="polite"></p>
+        <button class="primary-button pay-button" id="join-pay" type="button">Lipa TSh 16,000 <span>→</span></button>
+      </div>
+      <div id="enrollment-waiting" hidden class="chat-waiting">
+        <span>⌛</span>
+        <h2 class="waiting-title">Thibitisha kwa PIN yako</h2>
+        <p class="waiting-desc" id="join-status">Tunasubiri uthibitisho wa HarakaPay.</p>
+        <button class="secondary-button" id="join-cancel" type="button">Ghairi ombi la malipo</button>
+      </div>
+    </section>
+    <aside class="order-card">
+      <p class="eyebrow">MUHTASARI</p>
+      <div class="order-line"><span>Ada ya kujiunga kama mwalimu</span><b>TSh 16,000</b></div>
+      <div class="order-line total"><span>Jumla</span><b>TSh 16,000</b></div>
+      <div class="payment-status" id="join-badge">Ready to pay</div>
+    </aside>
+  </main>
+  <script src="teacher-enrollment.js"></script>
+</body>
+
+</html>

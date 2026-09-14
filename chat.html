@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="sw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chumba cha Mazungumzo — ChatPay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="chat-page">
+  <header class="chat-header">
+    <div class="chat-header-left">
+      <a href="/" class="chat-back" id="chat-back-link">← <span id="chat-back-text">ChatPay</span></a>
+    </div>
+    <div class="chat-person">
+      <div class="chat-avatar" id="partner-avatar-badge">✦</div>
+      <div>
+        <b id="chat-name">Emma Johansson</b>
+        <small id="chat-status-pill"><i class="status-dot-live"></i> Live Sasa</small>
+      </div>
+    </div>
+    <div class="chat-header-actions">
+      <div class="chat-msg-counter" id="chat-msg-counter" title="Mazungumzo yanakamilika na kulipwa kwenye ujumbe wa 11">
+        <span>💬 Ujumbe:</span> <b id="msg-count-display">1</b>/11
+      </div>
+      <div class="chat-earnings-meter" id="live-earnings-meter">
+        <span>💰 Mapato:</span> <b id="earned-display">TSh 0</b>
+      </div>
+      <div class="chat-timer" id="chat-timer">10:00</div>
+      <button class="chat-action-finish" id="finish-chat-btn" type="button">
+        Chukua Pesa ↗
+      </button>
+    </div>
+  </header>
+
+  <main class="chat-shell">
+    <aside class="chat-sidebar">
+      <p class="eyebrow" id="sidebar-eyebrow">Mzungu Live</p>
+      <h2 id="session-title">Safari na kutalii</h2>
+
+      <div class="partner-bio-card" id="sidebar-partner-card">
+        <h4 id="sidebar-partner-name">Emma Johansson</h4>
+        <p id="sidebar-partner-bio">Mpenzi wa utalii na safari za asili. Anapenda kujua kuhusu Serengeti na Zanzibar.
+        </p>
+        <div class="sidebar-rate-info" id="sidebar-rate-info">
+          Malipo: TSh 20,000 / dk 10
+        </div>
+      </div>
+
+      <div class="phrase-card phrase-card-spaced">
+        <span>UTARATIBU WA MALIPO</span>
+        <b>"Ujumbe 11 Kukamilisha"</b>
+        <small>Mazungumzo yanachukua ujumbe 11 ili chumba kimalizike na pochi yako kupokea pesa mara moja!</small>
+      </div>
+      <p class="sidebar-note" id="sidebar-note">🔒 Baada ya kukamilisha mazungumzo na mzungu huyu, utaweza kuzungumza naye tena kesho. Unaweza kuchat na wazungu wengine kila siku.</p>
+    </aside>
+
+    <section class="chat-room">
+      <div id="chat-waiting" class="chat-waiting chat-waiting-hidden">
+        <span>✦</span>
+        <h2>Inaunganisha na mzungu wako…</h2>
+        <p>Tafadhali subiri sekunde chache.</p>
+      </div>
+
+      <div id="messages" class="messages"></div>
+
+      <!-- Closed Chat Room Notice (Shown at 11 messages) -->
+      <div id="chat-closed-bar" class="chat-closed-bar" style="display:none;">
+        <div class="closed-icon">🎉</div>
+        <div class="closed-content">
+          <b>Mazungumzo Yamekamilika Kikamilifu! (Ujumbe 11/11)</b>
+          <p>Umelipwa kikamilifu kwenye pochi yako. Mazungumzo mapya na mzungu huyu yatafunguliwa kesho!</p>
+        </div>
+      </div>
+
+      <form id="message-form" class="message-form">
+        <button type="button" class="plus">＋</button>
+        <input id="message-input" type="text" autocomplete="off" maxlength="1200"
+          placeholder="Andika ujumbe wako hapa… (Kiswahili au Kiingereza)">
+        <button class="send-message" type="submit">Tuma ↑</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Modal Success / Payout Claimed (Receiving Money Notification) -->
+  <div class="modal" id="payout-modal">
+    <div class="modal-backdrop"></div>
+    <section class="withdraw-box payout-modal-box" role="dialog" aria-modal="true">
+      <div class="success-icon payout-success-icon">💰</div>
+      <p class="eyebrow" style="color:var(--lime)">PESA IMEPOKELEWA KWENYE POCHI!</p>
+      <h2 class="payout-modal-title">Hongera! Umelipwa Papo Hapo!</h2>
+      <div class="payout-amount-badge" id="payout-amount-badge">TSh 20,000</div>
+      <p class="modal-desc" id="payout-modal-desc">
+        Umefanikiwa kupokea <strong>TSh 20,000</strong> kwenye pochi yako ya ChatPay kwa kukamilisha mazungumzo 11 na mzungu.<br><br>
+        <small style="display:block;margin-top:8px;color:#9aaba4">🔒 Mazungumzo na mzungu huyu yatafunguliwa tena <strong>kesho</strong>. Unaweza kuchat na mzungu mwingine sasa hivi!</small>
+      </p>
+      <div class="payout-modal-actions">
+        <a class="primary-button payout-withdraw-btn" href="/?withdraw=open">
+          Toa Pesa Sasa kwenye Simu ↗
+        </a>
+        <a class="secondary-button" href="/">
+          Chat na Mzungu Mwingine Sasa →
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Modal Partner Locked Until Tomorrow -->
+  <div class="modal" id="locked-modal">
+    <div class="modal-backdrop"></div>
+    <section class="withdraw-box locked-modal-box" role="dialog" aria-modal="true">
+      <div class="success-icon locked-icon">🔒</div>
+      <p class="eyebrow" style="color:#f5bd58">Mazungumzo Yamefungwa Leo</p>
+      <h2 class="payout-modal-title" id="locked-modal-title">Umeshazungumza Naye Leo!</h2>
+      <p class="modal-desc" id="locked-modal-desc">
+        Umeshakamilisha mazungumzo na mzungu huyu kwa siku ya leo na kupokea malipo yako ya siku.<br><br>
+        Kwa mujibu wa mfumo wa ChatPay, unaweza kuzungumza naye tena <strong>kesho</strong>.<br>
+        Tafadhali chagua mzungu mwingine aliyepo live sasa hivi!
+      </p>
+      <div class="payout-modal-actions">
+        <a class="primary-button" href="/">
+          ← Chagua Mzungu Mwingine Aliyepo Live
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast"></div>
+
+  <script src="chat.js"></script>
+</body>
+
+</html>

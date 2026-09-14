@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamilisha Taarifa — ChatPay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="auth-page">
+  <a class="logo auth-logo" href="/"><i></i>ChatPay</a>
+  <main class="auth-layout">
+    <section class="auth-promo">
+      <p class="eyebrow">AKAUNTI IME-ACTIVATE</p>
+      <h1>Karibu, <em>mwalimu.</em></h1>
+      <p>Weka taarifa sahihi ili wanafunzi wajue unachofundisha na ClickPesa itume earnings zako kwenye namba sahihi.
+      </p>
+    </section>
+    <section class="auth-card">
+      <div id="auth-copy">
+        <h2>Kamilisha taarifa zako</h2>
+        <p>Namba hii ndiyo itatumika kupokea payouts zako.</p>
+      </div>
+      <form id="teacher-profile-form" novalidate>
+        <label>Jina lako kamili<input name="name" type="text" required minlength="2" autocomplete="name"></label>
+        <label>Jiji / Mkoa<input name="city" type="text" required minlength="2"
+            placeholder="Mfano: Dar es Salaam"></label>
+        <label>Unachofundisha / maelezo mafupi<textarea name="bio" required minlength="10" maxlength="400" rows="4"
+            placeholder="Mfano: Nafundisha Kiswahili cha mazungumzo..."></textarea></label>
+        <label>Namba ya kupokea pesa (M-Pesa / Tigo / Airtel / HaloPesa)<input name="payout_phone_number" type="tel"
+            required autocomplete="tel" placeholder="0712345678"></label>
+        <p class="auth-error" id="teacher-profile-error" aria-live="polite"></p>
+        <button class="primary-button auth-submit" type="submit">Hifadhi na Endelea <span>→</span></button>
+      </form>
+    </section>
+  </main>
+  <script src="teacher-profile.js"></script>
+</body>
+
+</html>

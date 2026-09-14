@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="sw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jiunge na ChatPay — Jisajili au Ingia</title>
+  <meta name="description"
+    content="Jiunge na ChatPay leo. Jisajili kupitia Moxera Agencies na anza kupata malipo kwa kuchat na wazungu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .auth-redirect-page {
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: var(--bg, #0b1613);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1.5rem 1rem 3rem;
+      font-family: 'Manrope', sans-serif;
+      position: relative;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .auth-redirect-page::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 30% 20%, rgba(132, 204, 22, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 50% at 75% 80%, rgba(16, 185, 129, 0.06) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .auth-logo-top {
+      font-family: 'Newsreader', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--lime, #84cc16);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 1.25rem;
+      z-index: 1;
+    }
+
+    .auth-logo-top i {
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, #84cc16, #22c55e);
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    .auth-redirect-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 1.75rem 1.5rem;
+      max-width: 440px;
+      width: 100%;
+      z-index: 1;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .card-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(132, 204, 22, 0.12);
+      color: #a3e635;
+      border: 1px solid rgba(132, 204, 22, 0.25);
+      border-radius: 99px;
+      padding: 0.25rem 0.8rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      margin-bottom: 0.9rem;
+    }
+
+    .auth-redirect-card h1 {
+      font-family: 'Newsreader', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #fff;
+      line-height: 1.2;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.03em;
+    }
+
+    .auth-redirect-card h1 em {
+      color: #84cc16;
+      font-style: italic;
+    }
+
+    .auth-redirect-card .sub {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.88rem;
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+    }
+
+    .auth-tab-row {
+      display: flex;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 4px;
+      margin-bottom: 1.25rem;
+      gap: 4px;
+    }
+
+    .auth-tab-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      border-radius: 9px;
+      color: rgba(255, 255, 255, 0.55);
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.55rem 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .auth-tab-btn.active {
+      background: rgba(132, 204, 22, 0.18);
+      color: #a3e635;
+      box-shadow: 0 0 0 1px rgba(132, 204, 22, 0.35);
+    }
+
+    .auth-panel {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.85rem;
+      text-align: left;
+    }
+
+    .auth-panel.active {
+      display: flex;
+    }
+
+    .register-info-box {
+      background: rgba(132, 204, 22, 0.06);
+      border: 1px solid rgba(132, 204, 22, 0.18);
+      border-radius: 12px;
+      padding: 1rem;
+      width: 100%;
+    }
+
+    .rib-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #84cc16;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      margin-bottom: 0.4rem;
+    }
+
+    .register-info-box p {
+      font-size: 0.84rem;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .register-steps {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .register-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.45;
+    }
+
+    .step-num {
+      width: 20px;
+      height: 20px;
+      min-width: 20px;
+      background: rgba(132, 204, 22, 0.15);
+      border: 1px solid rgba(132, 204, 22, 0.3);
+      border-radius: 50%;
+      color: #a3e635;
+      font-size: 0.68rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1px;
+    }
+
+    .moxera-register-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+      background: linear-gradient(135deg, #84cc16 0%, #22c55e 100%);
+      color: #0b1613;
+      border-radius: 12px;
+      padding: 0.85rem 1.25rem;
+      font-size: 0.95rem;
+      font-weight: 800;
+      text-decoration: none;
+      letter-spacing: -0.01em;
+      transition: opacity 0.2s, transform 0.15s;
+      box-shadow: 0 4px 20px rgba(132, 204, 22, 0.35);
+    }
+
+    .moxera-register-link:hover {
+      opacity: 0.92;
+      transform: translateY(-2px);
+    }
+
+    .partner-note {
+      font-size: 0.76rem;
+      color: rgba(255, 255, 255, 0.4);
+      text-align: center;
+      line-height: 1.4;
+      width: 100%;
+      margin: 0.2rem 0 0;
+    }
+
+    .login-info-box {
+      background: rgba(16, 185, 129, 0.06);
+      border: 1px solid rgba(16, 185, 129, 0.18);
+      border-radius: 12px;
+      padding: 1rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    .lib-icon {
+      font-size: 1.75rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .login-info-box h3 {
+      font-family: 'Manrope', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 0.3rem;
+    }
+
+    .login-info-box p {
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .moxera-login-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 12px;
+      padding: 0.85rem 1.25rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .moxera-login-link:hover {
+      background: rgba(16, 185, 129, 0.22);
+      transform: translateY(-1px);
+    }
+
+    .trust-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      margin-top: 1.25rem;
+      z-index: 1;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.76rem;
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 500;
+    }
+
+    .trust-item span {
+      font-size: 0.95rem;
+    }
+
+    .test-accounts-mini {
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+      width: 100%;
+    }
+
+    .test-accounts-mini-label {
+      font-size: 0.68rem;
+      color: rgba(255, 255, 255, 0.35);
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .test-mini-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+    }
+
+    .test-mini-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 9px;
+      padding: 0.5rem 0.6rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.1rem;
+      transition: all 0.2s;
+      color: #fff;
+      font-family: 'Manrope', sans-serif;
+    }
+
+    .test-mini-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .tmb-role {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .tmb-email {
+      font-size: 0.65rem;
+      color: rgba(255, 255, 255, 0.4);
+      font-family: 'DM Mono', monospace;
+    }
+
+    .highlight-lime {
+      color: #a3e635;
+    }
+
+    .switch-register-link,
+    .switch-login-link {
+      color: #a3e635;
+      cursor: pointer;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    .partner-note-top {
+      margin-top: 0.35rem;
+    }
+
+    /* Responsive adjustments for enlarged/zoomed screens or lower vertical resolutions */
+    @media (max-height: 750px) {
+      .auth-redirect-page {
+        padding: 1rem 0.75rem 2rem;
+      }
+
+      .auth-logo-top {
+        margin-bottom: 0.75rem;
+        font-size: 1.3rem;
+      }
+
+      .auth-redirect-card {
+        padding: 1.25rem 1.15rem;
+      }
+
+      .auth-redirect-card h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .auth-redirect-card .sub {
+        margin-bottom: 0.75rem;
+        font-size: 0.8rem;
+      }
+
+      .auth-tab-row {
+        margin-bottom: 0.75rem;
+      }
+
+      .card-badge {
+        margin-bottom: 0.5rem;
+      }
+
+      .register-info-box,
+      .login-info-box {
+        padding: 0.75rem;
+      }
+
+      .moxera-register-link,
+      .moxera-login-link {
+        padding: 0.75rem 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="auth-redirect-page">
+
+  <a class="auth-logo-top" href="/"><i></i>ChatPay</a>
+
+  <div class="auth-redirect-card">
+    <div class="card-badge">🌟 Moxera Agencies (Kendrich)</div>
+    <h1>Chat na<br><em>Ulipwe Sasa.</em></h1>
+    <p class="sub">Jiunge na maelfu ya Watanzania wanaopata malipo kwa kuchat na wazungu waliopo live.</p>
+
+    <div class="auth-tab-row" role="tablist">
+      <button class="auth-tab-btn active" id="tab-register" data-panel="panel-register" type="button" role="tab"
+        aria-selected="true">
+        🆕 Jisajili
+      </button>
+      <button class="auth-tab-btn" id="tab-login" data-panel="panel-login" type="button" role="tab"
+        aria-selected="false">
+        🔑 Ingia
+      </button>
+    </div>
+
+    <!-- Register Panel -->
+    <div class="auth-panel active" id="panel-register" role="tabpanel">
+      <div class="register-info-box">
+        <div class="rib-label">Hatua za Kujisajili</div>
+        <p>Usajili wako unafanywa salama kupitia Moxera Agencies — mshirika rasmi wa ChatPay.</p>
+      </div>
+
+      <div class="register-steps">
+        <div class="register-step">
+          <span class="step-num">1</span>
+          <span>Bofya kitufe hapa chini kufungua ukurasa wa usajili wa Moxera Agencies</span>
+        </div>
+        <div class="register-step">
+          <span class="step-num">2</span>
+          <span>Jaza taarifa zako — jina, simu (M-Pesa/Tigo Pesa), na barua pepe</span>
+        </div>
+        <div class="register-step">
+          <span class="step-num">3</span>
+          <span>Baada ya kujisajili, rudi hapa na ubonyeze <strong class="highlight-lime">Ingia</strong> kuanza
+            kuchat</span>
+        </div>
+      </div>
+
+      <a class="moxera-register-link" href="https://moxeraagencies.com/register?ref=Kendrich" target="_blank"
+        rel="noopener noreferrer" id="btn-register-moxera">
+        ✨ Jisajili Sasa (Moxera) ↗
+      </a>
+
+      <p class="partner-note partner-note-top">
+        Tayari una akaunti?
+        <strong class="switch-login-link" id="switch-to-login">Ingia hapa →</strong>
+      </p>
+
+      <p class="partner-note">
+        Usajili unafanywa kupitia Moxera Agencies (Kendrich) — mshirika rasmi.<br>
+        Malipo yanapitiwa na kuthibitishwa na timu yetu.
+      </p>
+
+      <div class="test-accounts-mini" id="dev-test-accounts">
+        <div class="test-accounts-mini-label">⚡ Akaunti za Majaribio (Dev)</div>
+        <div class="test-mini-grid">
+          <button class="test-mini-btn" id="btn-quick-teacher" type="button">
+            <span class="tmb-role">👩‍🏫 Mwalimu</span>
+            <span class="tmb-email">teacher@talkroom.com</span>
+          </button>
+          <button class="test-mini-btn" id="btn-quick-learner" type="button">
+            <span class="tmb-role">👨‍🎓 Mwanafunzi</span>
+            <span class="tmb-email">learner@talkroom.com</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Panel -->
+    <div class="auth-panel" id="panel-login" role="tabpanel">
+      <div class="login-info-box">
+        <div class="lib-icon">🔑</div>
+        <h3>Ingia kupitia Moxera Agencies</h3>
+        <p>Akaunti yako inamilikiwa na Moxera Agencies. Bofya hapa chini kuingia kwenye akaunti yako.</p>
+      </div>
+
+      <a class="moxera-login-link" href="https://moxeraagencies.com/login" target="_blank" rel="noopener noreferrer"
+        id="btn-login-moxera">
+        🔑 Ingia kwenye Moxera Agencies ↗
+      </a>
+
+      <p class="partner-note partner-note-top">
+        Bado huna akaunti?
+        <strong class="switch-register-link" id="switch-to-register">Jisajili hapa →</strong>
+      </p>
+
+      <div class="test-accounts-mini">
+        <div class="test-accounts-mini-label">⚡ Akaunti za Majaribio (Dev)</div>
+        <div class="test-mini-grid">
+          <button class="test-mini-btn" id="btn-quick-teacher-login" type="button">
+            <span class="tmb-role">👩‍🏫 Mwalimu</span>
+            <span class="tmb-email">teacher@talkroom.com</span>
+          </button>
+          <button class="test-mini-btn" id="btn-quick-learner-login" type="button">
+            <span class="tmb-role">👨‍🎓 Mwanafunzi</span>
+            <span class="tmb-email">learner@talkroom.com</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trust-row">
+    <span class="trust-item"><span>🔒</span> Salama &amp; Imehifadhiwa</span>
+    <span class="trust-item"><span>📱</span> M-Pesa &amp; Tigo Pesa</span>
+    <span class="trust-item"><span>⚡</span> Malipo ya Papo Hapo</span>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+
+</html>

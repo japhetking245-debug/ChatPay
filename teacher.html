@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher dashboard — ChatPay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dashboard-page">
+  <header class="dashboard-header">
+    <a class="logo" href="/"><i></i>ChatPay</a>
+    <div class="user-menu-wrap" id="user-menu-wrap">
+      <button class="user-pill-btn" id="user-pill-btn" type="button" aria-expanded="false">
+        <span class="user-avatar-badge" id="teacher-avatar">✦</span>
+        <span class="user-pill-name" id="teacher-label">Teacher</span>
+        <span class="user-pill-chevron">▼</span>
+      </button>
+      <div class="user-dropdown-menu" id="user-dropdown-menu" role="menu">
+        <div class="dropdown-header">
+          <strong id="dropdown-teacher-name">Teacher Name</strong>
+          <small id="dropdown-teacher-email">email@example.com</small>
+          <span class="role-badge teacher">Teacher</span>
+        </div>
+        <div class="dropdown-divider"></div>
+        <button class="dropdown-item" id="menu-profile-btn" type="button">
+          <span class="dropdown-icon">⚙️</span>
+          <span>Edit Profile</span>
+        </button>
+        <a class="dropdown-item" href="/">
+          <span class="dropdown-icon">🏠</span>
+          <span>Learner View</span>
+        </a>
+        <div class="dropdown-divider"></div>
+        <button class="dropdown-item logout-btn" id="menu-logout-btn" type="button">
+          <span class="dropdown-icon">🚪</span>
+          <span>Log out</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="dashboard-main">
+    <div class="dashboard-intro">
+      <div>
+        <p class="eyebrow">Teacher space</p>
+        <h1>Good morning,<br><em id="teacher-name">friend.</em></h1>
+      </div>
+      <div class="earning-note">
+        <span>THIS MONTH</span>
+        <b id="earning-total">TZS 0</b>
+        <small>Session earnings</small>
+      </div>
+    </div>
+
+    <div class="dashboard-tabs">
+      <button type="button" class="active">Requests <b id="request-count">0</b></button>
+      <button type="button">Upcoming</button>
+      <button type="button">Past sessions</button>
+    </div>
+
+    <section>
+      <div class="list-heading">
+        <div>
+          <h2>Conversation requests</h2>
+          <p>Accept a request to open a private chat with your learner.</p>
+        </div>
+        <span id="requests-status">Loading requests…</span>
+      </div>
+      <div id="requests" class="requests-list"></div>
+    </section>
+  </main>
+
+  <!-- Edit Profile Modal -->
+  <div class="modal" id="profile-modal">
+    <div class="modal-backdrop close-profile-modal"></div>
+    <section class="profile-box" role="dialog" aria-modal="true" aria-labelledby="profile-title">
+      <button class="modal-close close-profile-modal" type="button" aria-label="Close">×</button>
+      <p class="eyebrow">Teacher Settings</p>
+      <h2 id="profile-title">Edit profile</h2>
+      <p class="modal-desc">Update your name, email, or change your password.</p>
+      <form id="profile-form">
+        <label>
+          Full name
+          <input type="text" name="name" id="profile-name" required minlength="2" maxlength="80" autocomplete="name">
+        </label>
+        <label>
+          Email address
+          <input type="email" name="email" id="profile-email" required autocomplete="email">
+        </label>
+        <div>
+          <button type="button" class="password-toggle" id="toggle-password-fields">
+            🔒 Change password ▾
+          </button>
+          <div class="password-fields" id="password-fields" style="display:none">
+            <label>
+              Current password
+              <input type="password" name="current_password" id="profile-curr-pass" autocomplete="current-password"
+                placeholder="Enter current password">
+            </label>
+            <label>
+              New password
+              <input type="password" name="new_password" id="profile-new-pass" minlength="8" autocomplete="new-password"
+                placeholder="At least 8 characters">
+            </label>
+          </div>
+        </div>
+        <p class="profile-msg" id="profile-msg"></p>
+        <button class="primary-button" id="profile-save-btn" type="submit">Save changes <span>→</span></button>
+      </form>
+    </section>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="teacher.js"></script>
+</body>
+
+</html>
